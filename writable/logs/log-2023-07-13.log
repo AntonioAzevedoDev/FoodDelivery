@@ -1,0 +1,871 @@
+INFO - 2023-07-13 02:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 02:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 02:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 02:27:01 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2023-07-13 02:27:01 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2023-07-13 02:27:01 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2023-07-13 02:27:01 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2023-07-13 02:27:01 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2023-07-13 02:27:01 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 02:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 02:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-13 13:31:55 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'delicias_da_auz...', 3306, '', 0)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\food\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\food\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\food\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\food\system\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(22): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->index()
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#9 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\food\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\xampp\htdocs\food\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 C:\xampp\htdocs\food\system\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+#5 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(22): CodeIgniter\BaseModel->paginate(10)
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->index()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-13 13:31:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `usuarios`', [], false)
+ 3 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Admin\Usuarios.php(22): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:57:58 --> CSRF token verified.
+ERROR - 2023-07-13 13:58:02 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'delicias_da_auz...', 3306, '', 0)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\food\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\food\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\food\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\food\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\food\app\Models\UsuarioModel.php(81): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\food\app\Libraries\Autenticacao.php(18): App\Models\UsuarioModel->buscaUsuarioPorEmail('admin@admin.com')
+#8 C:\xampp\htdocs\food\app\Controllers\Login.php(28): App\Libraries\Autenticacao->login('admin@admin.com', '123456')
+#9 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Login->criar()
+#10 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#11 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\food\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\food\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\food\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\food\app\Models\UsuarioModel.php(81): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\food\app\Libraries\Autenticacao.php(18): App\Models\UsuarioModel->buscaUsuarioPorEmail('admin@admin.com')
+#7 C:\xampp\htdocs\food\app\Controllers\Login.php(28): App\Libraries\Autenticacao->login('admin@admin.com', '123456')
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Login->criar()
+#9 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-13 13:58:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `email` = :email:
+AND `usuarios`.`deletado_em` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UsuarioModel.php(81): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Libraries\Autenticacao.php(18): App\Models\UsuarioModel->buscaUsuarioPorEmail('admin@admin.com')
+ 7 APPPATH\Controllers\Login.php(28): App\Libraries\Autenticacao->login('admin@admin.com', '123456')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->criar()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:58:13 --> CSRF token verified.
+INFO - 2023-07-13 13:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:15 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:15 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:15 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:15 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:16 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:16 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:17 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 102
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(102): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:17 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 102
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(102): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:17 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 102
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(102): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:17 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 102
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(102): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:17 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 102
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(102): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:17 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 102
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(102): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:19 --> CSRF token verified.
+INFO - 2023-07-13 13:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 13:59:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 13:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:03:46 --> CSRF token verified.
+INFO - 2023-07-13 14:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:04:38 --> CSRF token verified.
+INFO - 2023-07-13 14:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:06:01 --> CSRF token verified.
+INFO - 2023-07-13 14:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:25:52 --> CSRF token verified.
+INFO - 2023-07-13 14:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:26:09 --> CSRF token verified.
+INFO - 2023-07-13 14:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:21 --> CSRF token verified.
+INFO - 2023-07-13 14:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:43 --> CSRF token verified.
+INFO - 2023-07-13 14:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:30:02 --> CSRF token verified.
+INFO - 2023-07-13 14:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 14:30:26 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 14:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 14:30:26 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 14:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 14:30:26 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 14:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 14:30:26 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 14:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 14:30:26 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 14:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 14:30:26 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 14:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-13 15:03:34 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Unable to find the socket transport &quot;tls&quot; - did you forget to enable it when you configured PHP?) in C:\xampp\htdocs\food\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\food\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 1547779200, 'Unable to find ...', 5)
+#2 C:\xampp\htdocs\food\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\food\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\food\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\food\app\Controllers\Home.php(23): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Home->email()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-13 15:03:34 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-13 15:03:34 --> 
+ERROR - 2023-07-13 15:09:52 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Unable to find the socket transport &quot;tls&quot; - did you forget to enable it when you configured PHP?) in C:\xampp\htdocs\food\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\food\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 1547779200, 'Unable to find ...', 5)
+#2 C:\xampp\htdocs\food\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\food\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\food\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\food\app\Controllers\Home.php(23): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Home->email()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-13 15:09:52 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-13 15:09:52 --> 
+ERROR - 2023-07-13 15:11:58 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Unable to find the socket transport &quot;tls&quot; - did you forget to enable it when you configured PHP?) in C:\xampp\htdocs\food\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\food\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 1547779200, 'Unable to find ...', 5)
+#2 C:\xampp\htdocs\food\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\food\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\food\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\food\app\Controllers\Home.php(23): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Home->email()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-13 15:11:58 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-13 15:11:58 --> 
+ERROR - 2023-07-13 15:11:59 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Unable to find the socket transport &quot;tls&quot; - did you forget to enable it when you configured PHP?) in C:\xampp\htdocs\food\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\food\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 1547779200, 'Unable to find ...', 5)
+#2 C:\xampp\htdocs\food\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\food\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\food\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\food\app\Controllers\Home.php(23): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Home->email()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-13 15:11:59 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-13 15:11:59 --> 
+ERROR - 2023-07-13 15:12:00 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Unable to find the socket transport &quot;tls&quot; - did you forget to enable it when you configured PHP?) in C:\xampp\htdocs\food\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\food\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 1547779200, 'Unable to find ...', 5)
+#2 C:\xampp\htdocs\food\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\food\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\food\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\food\app\Controllers\Home.php(23): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Home->email()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-13 15:12:00 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-13 15:12:00 --> 
+ERROR - 2023-07-13 15:12:00 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Unable to find the socket transport &quot;tls&quot; - did you forget to enable it when you configured PHP?) in C:\xampp\htdocs\food\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\food\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 1547779200, 'Unable to find ...', 5)
+#2 C:\xampp\htdocs\food\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\food\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\food\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\food\app\Controllers\Home.php(23): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Home->email()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-13 15:12:00 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-13 15:12:00 --> 
+ERROR - 2023-07-13 15:12:15 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Unable to find the socket transport &quot;tls&quot; - did you forget to enable it when you configured PHP?) in C:\xampp\htdocs\food\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\food\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 1547779200, 'Unable to find ...', 5)
+#2 C:\xampp\htdocs\food\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\food\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\food\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\food\app\Controllers\Home.php(23): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Home->email()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-13 15:12:15 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-13 15:12:15 --> 
+ERROR - 2023-07-13 15:12:16 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Unable to find the socket transport &quot;tls&quot; - did you forget to enable it when you configured PHP?) in C:\xampp\htdocs\food\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\food\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 1547779200, 'Unable to find ...', 5)
+#2 C:\xampp\htdocs\food\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\food\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\food\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\food\app\Controllers\Home.php(23): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Home->email()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-13 15:12:16 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-13 15:12:16 --> 
+ERROR - 2023-07-13 15:12:16 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Unable to find the socket transport &quot;tls&quot; - did you forget to enable it when you configured PHP?) in C:\xampp\htdocs\food\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\food\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 1547779200, 'Unable to find ...', 5)
+#2 C:\xampp\htdocs\food\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\food\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\food\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\food\app\Controllers\Home.php(23): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Home->email()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-13 15:12:16 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-13 15:12:16 --> 
+ERROR - 2023-07-13 15:19:17 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to smtp.gmail.com:25525 (Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu.
+) in C:\xampp\htdocs\food\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\food\system\Email\Email.php(1868): fsockopen('smtp.gmail.com', 25525, 10060, 'Uma tentativa d...', 5)
+#2 C:\xampp\htdocs\food\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\food\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\food\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\food\app\Controllers\Home.php(23): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Home->email()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-13 15:19:17 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-13 15:19:17 --> 
+ERROR - 2023-07-13 15:21:27 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to smtp.gmail.com:25525 (Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu.
+) in C:\xampp\htdocs\food\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\food\system\Email\Email.php(1868): fsockopen('smtp.gmail.com', 25525, 10060, 'Uma tentativa d...', 5)
+#2 C:\xampp\htdocs\food\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\food\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\food\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\food\app\Controllers\Home.php(23): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Home->email()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-13 15:21:27 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-13 15:21:27 --> 
+ERROR - 2023-07-13 15:22:08 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to smtp.gmail.com:25525 (Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu.
+) in C:\xampp\htdocs\food\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\food\system\Email\Email.php(1868): fsockopen('smtp.gmail.com', 25525, 10060, 'Uma tentativa d...', 5)
+#2 C:\xampp\htdocs\food\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\food\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\food\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\food\app\Controllers\Home.php(23): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Home->email()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-13 15:22:08 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-13 15:22:08 --> 
+INFO - 2023-07-13 15:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-13 18:21:27 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Unable to find the socket transport &quot;tls&quot; - did you forget to enable it when you configured PHP?) in C:\xampp\htdocs\food\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\food\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 1547779200, 'Unable to find ...', 5)
+#2 C:\xampp\htdocs\food\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\food\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\food\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\food\app\Controllers\Home.php(23): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\food\system\CodeIgniter.php(932): App\Controllers\Home->email()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-13 18:21:27 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-13 18:21:27 --> 
+INFO - 2023-07-13 21:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:47:19 --> CSRF token verified.
+CRITICAL - 2023-07-13 21:47:19 --> Class 'App\Filters\Throttle' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('password/processaesqueci', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 21:53:30 --> CSRF token verified.
+INFO - 2023-07-13 21:54:46 --> CSRF token verified.
+INFO - 2023-07-13 21:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:54:51 --> CSRF token verified.
+CRITICAL - 2023-07-13 21:55:09 --> A ação que você requisitou não é permitida.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('password/processaesqueci', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 21:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:55:18 --> CSRF token verified.
+INFO - 2023-07-13 21:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:56:21 --> CSRF token verified.
+INFO - 2023-07-13 21:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:57:39 --> CSRF token verified.
+INFO - 2023-07-13 21:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:58:07 --> CSRF token verified.
+INFO - 2023-07-13 21:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 21:58:10 --> CSRF token verified.
+INFO - 2023-07-13 22:23:15 --> CSRF token verified.
+INFO - 2023-07-13 19:25:19 --> CSRF token verified.
+INFO - 2023-07-13 19:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:37:24 --> CSRF token verified.
+INFO - 2023-07-13 19:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 19:37:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 19:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 19:37:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 19:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 19:37:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 19:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 19:37:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 19:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 19:37:35 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 19:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 19:37:35 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 90
+in APPPATH\Controllers\Admin\Usuarios.php on line 203.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(90): App\Controllers\Admin\Usuarios->buscarUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 19:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:38:29 --> CSRF token verified.
+INFO - 2023-07-13 19:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:48:25 --> CSRF token verified.
+INFO - 2023-07-13 19:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:48:36 --> CSRF token verified.
+INFO - 2023-07-13 19:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:52:41 --> CSRF token verified.
+INFO - 2023-07-13 19:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:52:56 --> CSRF token verified.
+INFO - 2023-07-13 19:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:53:27 --> CSRF token verified.
+INFO - 2023-07-13 19:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:53:58 --> CSRF token verified.
+INFO - 2023-07-13 19:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:22:29 --> CSRF token verified.
+INFO - 2023-07-13 20:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:22:39 --> CSRF token verified.
+CRITICAL - 2023-07-13 20:22:39 --> Não há dados para update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('12', Object(App\Entities\Usuario))
+ 4 APPPATH\Controllers\Password.php(81): CodeIgniter\BaseModel->save(Object(App\Entities\Usuario))
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Password->processareset('69022018d904f890dd07cdff36ee710c')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-13 20:24:30 --> CSRF token verified.
+INFO - 2023-07-13 20:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:24:40 --> CSRF token verified.
+INFO - 2023-07-13 20:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:24:53 --> CSRF token verified.
+INFO - 2023-07-13 20:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:25:00 --> CSRF token verified.
+INFO - 2023-07-13 20:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 20:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

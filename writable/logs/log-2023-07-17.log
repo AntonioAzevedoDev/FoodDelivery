@@ -1,0 +1,1201 @@
+INFO - 2023-07-17 15:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 15:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:06:17 --> CSRF token verified.
+INFO - 2023-07-17 16:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:17:09 --> Undefined variable: categoriaModel
+in APPPATH\Controllers\Admin\Categorias.php on line 12.
+ 1 APPPATH\Controllers\Admin\Categorias.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categoriaModel', 'C:\\xampp\\htdocs\\food\\app\\Controllers\\Admin\\Categorias.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Categorias->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:30:11 --> Undefined variable: categoria
+in APPPATH\Views\Admin\Categorias\show.php on line 27.
+ 1 APPPATH\Views\Admin\Categorias\show.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categoria', 'C:\\xampp\\htdocs\\food\\app\\Views\\Admin\\Categorias\\show.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\food\\app\\Views\\Admin\\Categorias\\show.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin/Categorias/show', [], true)
+ 5 APPPATH\Controllers\Admin\Categorias.php(55): view('Admin/Categorias/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:30:18 --> Undefined variable: categoria
+in APPPATH\Views\Admin\Categorias\show.php on line 27.
+ 1 APPPATH\Views\Admin\Categorias\show.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categoria', 'C:\\xampp\\htdocs\\food\\app\\Views\\Admin\\Categorias\\show.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\food\\app\\Views\\Admin\\Categorias\\show.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin/Categorias/show', [], true)
+ 5 APPPATH\Controllers\Admin\Categorias.php(55): view('Admin/Categorias/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:31:41 --> Undefined variable: categoria
+in APPPATH\Views\Admin\Categorias\show.php on line 27.
+ 1 APPPATH\Views\Admin\Categorias\show.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categoria', 'C:\\xampp\\htdocs\\food\\app\\Views\\Admin\\Categorias\\show.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\food\\app\\Views\\Admin\\Categorias\\show.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin/Categorias/show', [], true)
+ 5 APPPATH\Controllers\Admin\Categorias.php(55): view('Admin/Categorias/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:31:42 --> Undefined variable: categoria
+in APPPATH\Views\Admin\Categorias\show.php on line 27.
+ 1 APPPATH\Views\Admin\Categorias\show.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categoria', 'C:\\xampp\\htdocs\\food\\app\\Views\\Admin\\Categorias\\show.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\food\\app\\Views\\Admin\\Categorias\\show.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin/Categorias/show', [], true)
+ 5 APPPATH\Controllers\Admin\Categorias.php(55): view('Admin/Categorias/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:32:39 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 58.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:32:39 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 58.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:32:39 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 58.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:32:39 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 58.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:32:39 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 58.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:32:39 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 58.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:34:28 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 58.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:34:28 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 58.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:34:28 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 58.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:34:28 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 58.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:34:28 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 58.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:34:28 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 58.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:33 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:33 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:33 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:33 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:33 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:33 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:34 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:34 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:35 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:35 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:35 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:35 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:58 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:58 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:58 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:58 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:58 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:37:58 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 75.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:09 --> CSRF token verified.
+INFO - 2023-07-17 16:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:09 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:09 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:09 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:09 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:09 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:09 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:12 --> CSRF token verified.
+INFO - 2023-07-17 16:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:12 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:12 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:12 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:12 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:12 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:13 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:20 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:20 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:20 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:20 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:20 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:20 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:23 --> CSRF token verified.
+INFO - 2023-07-17 16:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:24 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:24 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:24 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:24 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:24 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:24 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:31 --> CSRF token verified.
+INFO - 2023-07-17 16:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:32 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:32 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:32 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:32 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:32 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:32 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:52 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:52 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:52 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:52 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:53 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:41:53 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:48 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:48 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:49 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:49 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:49 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:49 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:50 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:50 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:50 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:50 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:50 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:50 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:54 --> CSRF token verified.
+INFO - 2023-07-17 16:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:54 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:54 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:54 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:54 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:54 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:42:54 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:24 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:24 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:24 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:24 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:25 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:25 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:26 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:26 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:26 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:26 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:26 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:26 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:29 --> CSRF token verified.
+INFO - 2023-07-17 16:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:30 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:30 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:30 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:30 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:30 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:53:30 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:19 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:19 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:19 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:19 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:20 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:20 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:21 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:21 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:21 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:21 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:21 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:22 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 60
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(60): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:24 --> CSRF token verified.
+INFO - 2023-07-17 16:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 16:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:24 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:24 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:25 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:25 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:25 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2023-07-17 16:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 16:58:25 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscarCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 48
+in APPPATH\Controllers\Admin\Categorias.php on line 107.
+ 1 APPPATH\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscarCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
