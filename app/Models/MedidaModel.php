@@ -4,13 +4,13 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class CategoriaModel extends Model {
+class MedidaModel extends Model {
 
     protected $DBGroup = 'default';
-    protected $table = 'categorias';
-    protected $returnType = 'App\Entities\Categoria';
+    protected $table = 'medidas';
+    protected $returnType = 'App\Entities\Medida';
     protected $useSoftDeletes = true;
-    protected $allowedFields = ['nome', 'ativo', 'slug'];
+    protected $allowedFields = ['nome', 'descricao', 'ativo'];
     // Dates
     protected $useTimestamps = true;
     protected $dateFormat = 'datetime';
@@ -19,27 +19,14 @@ class CategoriaModel extends Model {
     protected $deletedField = 'deletado_em';
     // Validation
     protected $validationRules = [
-        'nome' => 'required|min_length[2]|max_length[120]|is_unique[categorias.nome]',
+        'nome' => 'required|min_length[2]|max_length[120]|is_unique[medidas.nome]',
     ];
     protected $validationMessages = [
         'nome' => [
             'required' => 'O campo Nome é obrigatório',
-            'is_unique' => 'Essa categoria já existe',
+            'is_unique' => 'Essa medida já existe',
         ],
     ];
-    // Callbacks
-    protected $beforeInsert = ['criaSlug'];
-    protected $afterInsert = ['criaSlug'];
-    protected $beforeUpdate = ['criaSlug'];
-    
-    protected function criaSlug(array $data) {
-
-        if (isset($data['data']['nome'])) {
-
-            $data['data']['slug'] = mb_url_title($data['data']['nome'], '-', true);
-        }
-        return $data;
-    }
     
     public function procurar($term) {
         if($term == null){
@@ -58,4 +45,5 @@ class CategoriaModel extends Model {
                 ->set('deletado_em', null)
                 ->update();
     }
+
 }

@@ -21,6 +21,7 @@ $routes->set404Override();
 // Set `$autoRoutesImproved` to true in `app/Config/Feature.php` and set the following to true.
 $routes->setAutoRoute(true);
 
+
 /*
  * --------------------------------------------------------------------
  * Route Definitions
@@ -32,6 +33,10 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 
 $routes->get('login', 'Login::novo', ['filter' => 'visitante']);
+
+$routes->group('admin', function($routes){
+    $routes->add('formas', 'Admin\FormasPagamento::index');
+});
 
 /*
  * --------------------------------------------------------------------

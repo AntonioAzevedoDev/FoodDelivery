@@ -27,14 +27,12 @@
                         <?php endforeach; ?>
                     </ul>
                 <?php endif; ?>
+                <?php echo form_open("admin/produtos/atualizar/$produto->id"); ?>
 
 
-                <?php echo form_open("admin/categorias/cadastrar"); ?>
+                <?php echo $this->include('Admin/Produtos/form'); ?>
 
-
-                <?php echo $this->include('Admin/Categorias/form'); ?>
-
-                <a href="<?php echo site_url("admin/categorias"); ?>" class="btn btn-light text-dark btn-">
+                <a href="<?php echo site_url("admin/produtos/show/$produto->id"); ?>" class="btn btn-light text-dark btn-">
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                     Voltar</a>
                 <?php echo form_close() ?>

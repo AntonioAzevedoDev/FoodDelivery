@@ -3,6 +3,7 @@
 namespace App\Controllers\Admin;
 
 use App\Controllers\BaseController;
+use App\Entities\Categoria;
 
 class Categorias extends BaseController {
 
@@ -43,6 +44,40 @@ class Categorias extends BaseController {
         return $this->response->setJSON($retorno);
     }
 
+    public function criar() {
+
+        $categoria = new Categoria();
+
+        $data = [
+            'titulo' => "Cadastrando nova categoria",
+            'categoria' => $categoria,
+        ];
+
+        return view('Admin/Categorias/criar', $data);
+    }
+
+    public function cadastrar() {
+
+        if ($this->request->getMethod() === 'post') {
+
+            $categoria = new Categoria($this->request->getPost());
+
+
+            if ($this->categoriaModel->save($categoria)) {
+                return redirect()->to(site_url("admin/categorias/show/" . $this->categoriaModel->getInsertID()))
+                                ->with('sucesso', "Categoria $categoria->nome cadastrada com sucesso");
+            } else {
+                return redirect()->back()
+                                ->with('errors_model', $this->categoriaModel->errors())
+                                ->with('atencao', 'Por favor verifique os erros abaixo')
+                                ->withInput();
+            }
+        } else {
+            //não é POST
+            return redirect()->back();
+        }
+    }
+
     public function show($id = null) {
 
         $categoria = $this->buscarCategoriaOu404($id);
@@ -80,8 +115,8 @@ class Categorias extends BaseController {
             if ($categoria->deletado_em != null) {
                 return redirect()->back()->with('info', "A categoria $categoria->nome encontra-se excluida. Portanto, não é possível atualizá-la.");
             }
-          
-            
+
+
 
             $categoria->fill($this->request->getPost());
 
@@ -101,6 +136,45 @@ class Categorias extends BaseController {
         } else {
             //não é POST
             return redirect()->back();
+        }
+    }
+
+    public function excluir($id = null) {
+
+        $categoria = $this->buscarCategoriaOu404($id);
+
+        if ($categoria->deletado_em != null) {
+            return redirect()->back()->with('info', "A categoria $categoria->nome encontra-se excluida.");
+        }
+
+        if ($this->request->getMethod() === 'post') {
+            $this->categoriaModel->delete($id);
+            return redirect()->to(site_url('admin/categorias'))->with('sucesso', "Categoria $categoria->nome excluida com sucesso!");
+        }
+
+        $data = [
+            'titulo' => "Excluindo a categoria $categoria->nome",
+            'categoria' => $categoria,
+        ];
+
+        return view('Admin/Categorias/excluir', $data);
+    }
+
+    public function desfazerExclusao($id = null) {
+
+        $categoria = $this->buscarCategoriaOu404($id);
+
+        if ($categoria->deletado_em == null) {
+            return redirect()->back()->with('info', "Apenas categorias excluídas podem ser recuperadas");
+        }
+
+        if ($this->categoriaModel->desfazerExclusao($id)) {
+            return redirect()->back()->with('sucesso', "Exclusão desfeita com sucesso!");
+        } else {
+            return redirect()->back()
+                            ->with('errors_model', $this->categoriaModel->errors())
+                            ->with('atencao', 'Por favor verifique os erros abaixo')
+                            ->withInput();
         }
     }
 

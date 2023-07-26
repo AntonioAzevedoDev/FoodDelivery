@@ -16,7 +16,7 @@
 <!-- Aqui enviamos para o template principal os conteúdos -->
 <div class="row">
 
-    <div class="col-lg-12 grid-margin stretch-card">
+    <div class="col-lg-6 grid-margin stretch-card">
         <div class="card">
             <div class="card-header bg-primary pb-0 pt-4"><h4 class="card-title  text-white"><?php echo esc($titulo); ?></h4></div>
             <div class="card-body">
@@ -27,14 +27,12 @@
                         <?php endforeach; ?>
                     </ul>
                 <?php endif; ?>
+                <?php echo form_open("admin/medidas/atualizar/$medida->id"); ?>
 
 
-                <?php echo form_open("admin/categorias/cadastrar"); ?>
+                <?php echo $this->include('Admin/Medidas/form'); ?>
 
-
-                <?php echo $this->include('Admin/Categorias/form'); ?>
-
-                <a href="<?php echo site_url("admin/categorias"); ?>" class="btn btn-light text-dark btn-">
+                <a href="<?php echo site_url("admin/medidas/show/$medida->id"); ?>" class="btn btn-light text-dark btn-">
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                     Voltar</a>
                 <?php echo form_close() ?>
