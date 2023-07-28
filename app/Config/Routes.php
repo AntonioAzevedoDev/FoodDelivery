@@ -43,6 +43,7 @@ $routes->group('admin', function($routes){
     $routes->post('formas/atualizar/(:num)', 'Admin\FormasPagamento::atualizar/$1');
     $routes->post('formas/cadastrar', 'Admin\FormasPagamento::cadastrar');
     $routes->match(['get' , 'post'],'formas/excluir/(:num)', 'Admin\FormasPagamento::excluir/$1');
+    $routes->match(['get' , 'post'],'expedientes', 'Admin\Expedientes::expedientes');
 });
 
 $routes->get('formas/procurar', 'Admin\FormasPagamento::procurar', ['as' => 'procurar.formas']);

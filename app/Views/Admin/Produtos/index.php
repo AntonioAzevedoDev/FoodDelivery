@@ -39,6 +39,7 @@
                                 <th>Nome</th>
                                 <th>Categoria</th>
                                 <th>Data de criação</th>
+                                <th>Especificações</th>
                                 <th>Ativo</th>
                                 <th>Situação</th>
                             </tr>
@@ -47,18 +48,29 @@
                             <?php foreach ($produtos as $produto): ?>
                                 <tr>
                                     <td class="py-1">
-                                        <?php if($produto->imagem):?>
-                                            <img src="<?php echo site_url("admin/produtos/imagem/$produto->imagem")?>" alt="<?php esc($produto->nome)?>"/>
+                                        <?php if ($produto->imagem): ?>
+                                            <img src="<?php echo site_url("admin/produtos/imagem/$produto->imagem") ?>" alt="<?php esc($produto->nome) ?>"/>
                                         <?php else: ?>
-                                            <img src="<?php echo site_url('admin/images/produto-sem-imagem.webp')?>" alt="Produto sem imagem"/>
+                                            <img src="<?php echo site_url('admin/images/produto-sem-imagem.webp') ?>" alt="Produto sem imagem"/>
                                         <?php endif; ?>
-                                        
+
                                     </td>
                                     <td>
                                         <a href="<?php echo site_url("admin/produtos/show/$produto->id"); ?>"><?php echo $produto->nome; ?></a>
                                     </td>
                                     <td><?php echo $produto->categoria; ?></td>
                                     <td><?php echo $produto->criado_em->humanize(); ?></td>
+                                    <td>
+                                        <?php foreach ($especificacoes as $especificacao): ?>
+                                            <?php if ($produto->id == $especificacao->produto_id): ?>
+                                                <p>
+                                                    <?php echo esc($especificacao->nome); ?> : R$&nbsp;<?php echo esc($especificacao->preco); ?> 
+                                                </p>
+                                            
+                                            <?php endif; ?>
+                                            
+                                        <?php endforeach; ?>
+                                    </td>
                                     <td><?php echo ($produto->ativo && $produto->deletado_em == null ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>'); ?></td>
                                     <td>
                                         <?php echo ($produto->deletado_em === null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluido</label>'); ?>
