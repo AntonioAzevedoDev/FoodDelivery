@@ -18,7 +18,7 @@
 
     <div class="col-lg-6 grid-margin stretch-card">
         <div class="card">
-            <div class="card-header bg-primary pb-0 pt-4"><h4 class="card-title  text-white"><?php echo esc($titulo); ?></h4></div>
+            <div class="card-header bg-primary pb-0 pt-4"><h4 class="card-title  text-white"><?php echo esc($titulo); ?> | Cascavel</h4></div>
             <div class="card-body">
                 <?php if (session()->has('errors_model')): ?>
                     <ul>
@@ -27,21 +27,12 @@
                         <?php endforeach; ?>
                     </ul>
                 <?php endif; ?>
-                <?php echo form_open("admin/formas/excluir/$forma->id"); ?>
+                <?php echo form_open("admin/bairros/atualizar/$bairro->id"); ?>
 
 
-                <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                    <strong>Atenção!</strong> Tem certeza da exclusão da Forma de pagamento <strong><?php echo esc($forma->nome); ?> ?</strong>
+                <?php echo $this->include('Admin/Bairros/form'); ?>
 
-                </div>
-
-
-                <button type="submit" class="btn btn-danger mr-2 btn-sm">
-                    <i class="mdi mdi-trash-can btn-icon-prepend"></i>
-                    Excluir
-                </button>
-
-                <a href="<?php echo site_url("admin/formas/show/$forma->id"); ?>" class="btn btn-light text-dark btn-">
+                <a href="<?php echo site_url("admin/bairros/show/$bairro->id"); ?>" class="btn btn-light text-dark btn-">
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                     Voltar</a>
                 <?php echo form_close() ?>

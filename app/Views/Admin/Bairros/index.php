@@ -23,10 +23,10 @@
                 <h4 class="card-title"><?php echo $titulo; ?></h4>
 
                 <div class="ui-widget">
-                    <input  id="query" name="query" placeholder="Pesquise por um forma de pagamento" class="form-control bg-light mb-5" >
+                    <input  id="query" name="query" placeholder="Pesquise por um bairro de Cascavel" class="form-control bg-light mb-5" >
                 </div>
 
-                <a href="<?php echo site_url("admin/formas/criar"); ?>" class="btn btn-success float-right mb-5">
+                <a href="<?php echo site_url("admin/bairros/criar"); ?>" class="btn btn-success float-right mb-5">
                     <i class="mdi mdi-plus btn-icon-prepend"></i>
                     Cadastrar</a>
 
@@ -36,24 +36,26 @@
                         <thead>
                             <tr>
                                 <th>Nome</th>
+                                <th>Valor de entrega</th>
                                 <th>Data de criação</th>
                                 <th>Ativo</th>
                                 <th>Situação</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <?php foreach ($formas as $forma): ?>
+                            <?php foreach ($bairros as $bairro): ?>
                                 <tr>
 
                                     <td>
-                                        <a href="<?php echo site_url("admin/formas/show/$forma->id"); ?>"><?php echo $forma->nome; ?></a>
+                                        <a href="<?php echo site_url("admin/bairros/show/$bairro->id"); ?>"><?php echo $bairro->nome; ?></a>
                                     </td>
-                                    <td><?php echo $forma->criado_em->humanize(); ?></td>
-                                    <td><?php echo ($forma->ativo && $forma->deletado_em == null ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>'); ?></td>
+                                    <td>R$&nbsp;<?php echo esc(number_format($bairro->valor_entrega, 2)); ?></td>
+                                    <td><?php echo $bairro->criado_em->humanize(); ?></td>
+                                    <td><?php echo ($bairro->ativo && $bairro->deletado_em == null ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>'); ?></td>
                                     <td>
-                                        <?php echo ($forma->deletado_em === null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluido</label>'); ?>
-                                        <?php if ($forma->deletado_em != null): ?>
-                                            <a href="<?php echo site_url("admin/formas/desfazerexclusao/$forma->id"); ?>" class="badge badge-dark ml-2">
+                                        <?php echo ($bairro->deletado_em === null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluido</label>'); ?>
+                                        <?php if ($bairro->deletado_em != null): ?>
+                                            <a href="<?php echo site_url("admin/bairros/desfazerexclusao/$bairro->id"); ?>" class="badge badge-dark ml-2">
                                                 <i class="mdi mdi-undo btn-icon-prepend"></i>
                                                 Desfazer</a>
 
@@ -97,7 +99,7 @@
             source: function (request, response) {
                 $.ajax({
 
-                    url: "<?php echo route_to('procurar.formas'); ?>",
+                    url: "<?php echo site_url('admin/bairros/procurar'); ?>",
                     dataType: "json",
                     data: {
                         term: request.term
@@ -106,7 +108,7 @@
                         if (data.length < 1) {
                             var data = [
                                 {
-                                    label: 'Forma de pagamento não encontrada',
+                                    label: 'Bairro de Cascavel não encontrado',
                                     value: -1
                                 }
                             ];
@@ -123,7 +125,7 @@
                     return false;
                 } else {
 
-                    window.location.href = '<?php echo site_url('admin/formas/show/'); ?>' + ui.item.id;
+                    window.location.href = '<?php echo site_url('admin/bairros/show/'); ?>' + ui.item.id;
 
                 }
             }

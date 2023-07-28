@@ -35,6 +35,7 @@
                     <table class="table table-hover">
                         <thead>
                             <tr>
+                                <th>Imagem</th>
                                 <th>Nome</th>
                                 <th>Categoria</th>
                                 <th>Data de criação</th>
@@ -45,11 +46,18 @@
                         <tbody>
                             <?php foreach ($produtos as $produto): ?>
                                 <tr>
-
+                                    <td class="py-1">
+                                        <?php if($produto->imagem):?>
+                                            <img src="<?php echo site_url("admin/produtos/imagem/$produto->imagem")?>" alt="<?php esc($produto->nome)?>"/>
+                                        <?php else: ?>
+                                            <img src="<?php echo site_url('admin/images/produto-sem-imagem.webp')?>" alt="Produto sem imagem"/>
+                                        <?php endif; ?>
+                                        
+                                    </td>
                                     <td>
                                         <a href="<?php echo site_url("admin/produtos/show/$produto->id"); ?>"><?php echo $produto->nome; ?></a>
                                     </td>
-                                     <td><?php echo $produto->categoria; ?></td>
+                                    <td><?php echo $produto->categoria; ?></td>
                                     <td><?php echo $produto->criado_em->humanize(); ?></td>
                                     <td><?php echo ($produto->ativo && $produto->deletado_em == null ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>'); ?></td>
                                     <td>
@@ -72,7 +80,7 @@
                         </tbody>
                     </table>
                 </div>
-                
+
                 <div class="mt-3">
                     <?php echo $pager->links() ?>
                 </div>

@@ -27,21 +27,27 @@
                         <?php endforeach; ?>
                     </ul>
                 <?php endif; ?>
-                <?php echo form_open("admin/formas/excluir/$forma->id"); ?>
+                <?php echo form_open_multipart("admin/entregadores/upload/$entregador->id"); ?>
 
 
-                <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                    <strong>Atenção!</strong> Tem certeza da exclusão da Forma de pagamento <strong><?php echo esc($forma->nome); ?> ?</strong>
-
+                <div class="form-group mb-5">
+                    <label>Upload de imagem</label>
+                    <input type="file" name="foto_entregador" class="file-upload-default">
+                    <div class="input-group col-xs-12">
+                        <input type="text" class="form-control file-upload-info" disabled placeholder="Escolha uma imagem">
+                        <span class="input-group-append">
+                            <button class="file-upload-browse btn btn-danger" type="button">Escolher</button>
+                        </span>
+                    </div>
                 </div>
 
 
-                <button type="submit" class="btn btn-danger mr-2 btn-sm">
-                    <i class="mdi mdi-trash-can btn-icon-prepend"></i>
-                    Excluir
-                </button>
 
-                <a href="<?php echo site_url("admin/formas/show/$forma->id"); ?>" class="btn btn-light text-dark btn-">
+                <button type="submit" class="btn btn-primary mr-2 btn-sm">
+                    <i class="mdi mdi-checkbox-marked-circle btn-icon-prepend"></i>
+                    Salvar
+                </button>
+                <a href="<?php echo site_url("admin/entregadores/show/$entregador->id"); ?>" class="btn btn-light text-dark btn-">
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                     Voltar</a>
                 <?php echo form_close() ?>
@@ -59,7 +65,7 @@
 
 <script src="<?php echo site_url('admin/vendors/mask/jquery.mask.min.js'); ?>"></script>
 <script src="<?php echo site_url('admin/vendors/mask/app.js'); ?>"></script>
-
+<script src="<?php echo site_url('admin/js/file-upload.js') ?>"></script>
 
 
 <?php echo $this->endSection(); ?>

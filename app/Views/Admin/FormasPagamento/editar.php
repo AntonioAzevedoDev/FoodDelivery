@@ -16,7 +16,7 @@
 <!-- Aqui enviamos para o template principal os conteúdos -->
 <div class="row">
 
-    <div class="col-lg-6 grid-margin stretch-card">
+    <div class="col-lg-4 grid-margin stretch-card">
         <div class="card">
             <div class="card-header bg-primary pb-0 pt-4"><h4 class="card-title  text-white"><?php echo esc($titulo); ?></h4></div>
             <div class="card-body">
@@ -27,12 +27,12 @@
                         <?php endforeach; ?>
                     </ul>
                 <?php endif; ?>
-                <?php echo form_open("admin/extras/atualizar/$extra->id"); ?>
+                <?php echo form_open("admin/formas/atualizar/$forma->id"); ?>
 
 
-                <?php echo $this->include('Admin/Extras/form'); ?>
+                <?php echo $this->include('Admin/FormasPagamento/form'); ?>
 
-                <a href="<?php echo site_url("admin/extras/show/$extra->id"); ?>" class="btn btn-light text-dark btn-">
+                <a href="<?php echo site_url("admin/formas/show/$forma->id"); ?>" class="btn btn-light text-dark btn-">
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                     Voltar</a>
                 <?php echo form_close() ?>

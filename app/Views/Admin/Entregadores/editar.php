@@ -16,7 +16,7 @@
 <!-- Aqui enviamos para o template principal os conteúdos -->
 <div class="row">
 
-    <div class="col-lg-6 grid-margin stretch-card">
+    <div class="col-lg-10 grid-margin stretch-card">
         <div class="card">
             <div class="card-header bg-primary pb-0 pt-4"><h4 class="card-title  text-white"><?php echo esc($titulo); ?></h4></div>
             <div class="card-body">
@@ -27,21 +27,12 @@
                         <?php endforeach; ?>
                     </ul>
                 <?php endif; ?>
-                <?php echo form_open("admin/formas/excluir/$forma->id"); ?>
+                <?php echo form_open("admin/entregadores/atualizar/$entregador->id"); ?>
 
 
-                <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                    <strong>Atenção!</strong> Tem certeza da exclusão da Forma de pagamento <strong><?php echo esc($forma->nome); ?> ?</strong>
+                <?php echo $this->include('Admin/Entregadores/form'); ?>
 
-                </div>
-
-
-                <button type="submit" class="btn btn-danger mr-2 btn-sm">
-                    <i class="mdi mdi-trash-can btn-icon-prepend"></i>
-                    Excluir
-                </button>
-
-                <a href="<?php echo site_url("admin/formas/show/$forma->id"); ?>" class="btn btn-light text-dark btn-">
+                <a href="<?php echo site_url("admin/entregadores/show/$entregador->id"); ?>" class="btn btn-light mt-4 text-dark btn-sm">
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                     Voltar</a>
                 <?php echo form_close() ?>

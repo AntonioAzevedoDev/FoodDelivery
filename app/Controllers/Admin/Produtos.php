@@ -446,6 +446,7 @@ class Produtos extends BaseController {
                             ->withInput();
         }
     }
+    
     private function buscarProdutoOu404(int $id = null) {
         if (!$id || !$produto = $this->produtoModel->select('produtos.*, categorias.nome AS categoria')
                         ->join('categorias', 'categorias.id = produtos.categoria_id')
