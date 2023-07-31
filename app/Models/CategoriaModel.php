@@ -19,7 +19,7 @@ class CategoriaModel extends Model {
     protected $deletedField = 'deletado_em';
     // Validation
     protected $validationRules = [
-        'nome' => 'required|min_length[2]|max_length[120]|is_unique[categorias.nome]',
+        'nome' => 'required|min_length[2]|max_length[120]|is_unique[categorias.nome,id,{id}]',
     ];
     protected $validationMessages = [
         'nome' => [
@@ -57,5 +57,14 @@ class CategoriaModel extends Model {
                 ->where('id',$id)
                 ->set('deletado_em', null)
                 ->update();
+    }
+    
+    public function buscaCategoriasWebHome() {
+        
+        return $this->select(['categorias.id', 'categorias.nome', 'categorias.slug'])
+                ->join('produtos', 'produtos.categoria_id = categorias.id')
+                ->groupBy('categorias.id')
+                ->findAll();
+        
     }
 }

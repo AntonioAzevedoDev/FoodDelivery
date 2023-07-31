@@ -18,7 +18,7 @@ class ProdutoModel extends Model {
     protected $updatedField = 'atualizado_em';
     protected $deletedField = 'deletado_em';
     protected $validationRules = [
-        'nome' => 'required|min_length[2]|max_length[120]|is_unique[produtos.nome]',
+        'nome' => 'required|min_length[2]|max_length[120]|is_unique[produtos.nome,id,{id}]',
         'ingredientes' => 'required|min_length[10]|max_length[1000]',
         'categoria_id' => 'required|integer',
     ];
@@ -62,6 +62,27 @@ class ProdutoModel extends Model {
                         ->where('id', $id)
                         ->set('deletado_em', null)
                         ->update();
+    }
+
+    public function buscaProdutosWebHome() {
+
+        return $this->select([
+                            'produtos.id',
+                            'produtos.nome',
+                            'produtos.ingredientes',
+                            'produtos.slug',
+                            'produtos.imagem',
+                            'categorias.id AS categoria_id',
+                            'categorias.nome AS categoria',
+                            'categorias.slug AS categoria_slug',
+                        ])
+                        ->selectMin('produtos_especificacoes.preco')
+                        ->join('categorias', 'categorias.id = produtos.categoria_id')
+                        ->join('produtos_especificacoes', 'produtos_especificacoes.produto_id = produtos.id')
+                        ->where('produtos.ativo', true)
+                        ->groupBy('produtos.nome')
+                        ->orderBy('categorias.nome', 'ASC')
+                        ->findAll();
     }
 
 }

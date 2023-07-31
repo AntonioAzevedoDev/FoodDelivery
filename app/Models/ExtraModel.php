@@ -21,7 +21,7 @@ class ExtraModel extends Model
 
     // Validation
     protected $validationRules = [
-        'nome' => 'required|min_length[2]|max_length[120]|is_unique[extras.nome]',
+        'nome' => 'required|min_length[2]|max_length[120]|is_unique[extras.nome,id,{id}]',
     ];
     protected $validationMessages = [
         'nome' => [
@@ -59,5 +59,5 @@ class ExtraModel extends Model
                 ->set('deletado_em', null)
                 ->update();
     }
-    
+   
 }

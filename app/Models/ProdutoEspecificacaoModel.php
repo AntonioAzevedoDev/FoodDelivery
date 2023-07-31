@@ -38,4 +38,14 @@ class ProdutoEspecificacaoModel extends Model
                 ->paginate(10);
         
     }
+    
+    public function buscaEspecificacoesDoProdutoDetalhes(int $produto_id) {
+        
+        return $this->select('medidas.nome, produtos_especificacoes.id AS especificacao_id, produtos_especificacoes.preco, produtos_especificacoes.customizavel')
+                ->join('medidas', 'medidas.id = produtos_especificacoes.medida_id')
+                ->join('produtos', 'produtos.id = produtos_especificacoes.produto_id')
+                ->where('produtos_especificacoes.produto_id', $produto_id)
+                ->findAll();
+        
+    }
 }

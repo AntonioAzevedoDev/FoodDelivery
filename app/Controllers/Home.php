@@ -4,30 +4,23 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
+    private $categoriaModel;
+    private $produtoModel;
+    
+    public function __construct() {
+        $this->categoriaModel = new \App\Models\CategoriaModel();
+        $this->produtoModel = new \App\Models\ProdutoModel();
+    }
     public function index()
     {
-        return view('welcome_message');
+        $data = [
+            'titulo' => 'Seja muito bem vindo(a)!',
+            'categorias' => $this->categoriaModel->buscaCategoriasWebHome(),
+            'produtos' => $this->produtoModel->buscaProdutosWebHome(),
+        ];
+        
+        return view('Home/index' ,$data);
     }
     
-    public function email() {
-        
-        $email = \Config\Services::email();
-        
-        $email->setFrom('lucassilva.eq@gmail.com','Lucas Silva');
-        $email->setTo('lucassilva.eq@gmail.com');
-       // $email->setCC('');
-        //$email->setBCC('');
-        $email->setSubject('Email Test');
-        $email->setMessage('Testing the email class.');
-        
-        if($email->send()){
-            echo 'Email enviado';
-        }else{
-            echo $email->printDebugger();
-        }
-        
-        
-        
-        
-    }
+    
 }
