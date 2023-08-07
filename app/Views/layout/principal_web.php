@@ -42,19 +42,31 @@
         <link rel="mask-icon" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#990100" />
         <meta name="theme-color" content="#ffffff" />    
-        
-        
+
+
         <style>
             .navbar-nav > li > a{
                 line-height: 30px
             }
-            
+
             .btn-food{
                 background-color: #990100;
                 color: white !important;
                 font-family: 'Montserrat-Bold';
             }
-            
+
+            .fonte-food{
+                color: #990100 !important;
+                font-family: 'Montserrat-Bold';
+            }
+
+            .panel-food{
+                background: #990100 !important;
+                color: white !important;
+                font-family: 'Montserrat-Bold';
+            }
+
+
         </style>
         <!-- Essa section renderizará os estilos específicos da view que estender esse layout -->
         <?php echo $this->renderSection('estilos'); ?>
@@ -112,35 +124,12 @@
                                 <div class="carousel-caption">
                                     <div class="fadeUp item_img">
                                         <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/pizza.png" alt="sample" /> 
-                                        <div class="item_badge">
-                                            <span class="badge_btext">20%</span>
-                                            <span class="badge_stext">OFF</span>
-                                        </div>
                                     </div>
                                     <div class="fadeUp fade-slow item_details">
-                                        <h4 class="item_name">Delicious Food</h4>
-                                        <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <h4 class="item_name">Pizza</h4>
+                                        <p class="item_info">Combina com qualquer ocasião, confira abaixo nossas delícias.</p>
                                         <div class="item_link_box">
-                                            <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="carousel-caption">
-                                    <div class="fadeUp item_img">
-                                        <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/tortilla.png" alt="sample" />
-                                        <div class="item_badge">
-                                            <span class="badge_btext">20%</span>
-                                            <span class="badge_stext">OFF</span>
-                                        </div>
-                                    </div>
-                                    <div class="fadeUp fade-slow item_details">
-                                        <h4 class="item_name">Delicious Food</h4>
-                                        <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        <div class="item_link_box">
-                                            <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                            <a href="#menu" class="item_link page-scroll">Quero essa delícia</a>
                                         </div>
                                     </div>
                                 </div>
@@ -150,16 +139,12 @@
                                 <div class="carousel-caption">
                                     <div class="fadeUp item_img">
                                         <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/burger.png" alt="sample" />
-                                        <div class="item_badge">
-                                            <span class="badge_btext">20%</span>
-                                            <span class="badge_stext">OFF</span>
-                                        </div>
                                     </div>
                                     <div class="fadeUp fade-slow item_details">
-                                        <h4 class="item_name">Delicious Food</h4>
-                                        <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <h4 class="item_name">Hambúrguer</h4>
+                                        <p class="item_info">Bateu aquela fome ? Peça já o seu Hambúrguer.</p>
                                         <div class="item_link_box">
-                                            <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                            <a href="#menu" class="item_link page-scroll">Quero essa delícia</a>
                                         </div>
                                     </div>
                                 </div>
@@ -168,36 +153,13 @@
                             <div class="item">
                                 <div class="carousel-caption">
                                     <div class="fadeUp item_img">
-                                        <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/pizza.png" alt="sample" />
-                                        <div class="item_badge">
-                                            <span class="badge_btext">20%</span>
-                                            <span class="badge_stext">OFF</span>
-                                        </div>
+                                        <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/calzone.png" alt="sample" />
                                     </div>
                                     <div class="fadeUp fade-slow item_details">
-                                        <h4 class="item_name">Delicious Food</h4>
-                                        <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <h4 style="margin-top: 50px !important" class="item_name">Calzone</h4>
+                                        <p class="item_info">Confira nossos calzones deliciosos.</p>
                                         <div class="item_link_box">
-                                            <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="carousel-caption">
-                                    <div class="fadeUp item_img">
-                                        <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/burger.png" alt="sample" />
-                                        <div class="item_badge">
-                                            <span class="badge_btext">20%</span>
-                                            <span class="badge_stext">OFF</span>
-                                        </div>
-                                    </div>
-                                    <div class="fadeUp fade-slow item_details">
-                                        <h4 class="item_name">Delicious Food</h4>
-                                        <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        <div class="item_link_box">
-                                            <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                            <a href="#menu" class="item_link page-scroll">Quero essa delícia</a>
                                         </div>
                                     </div>
                                 </div>
@@ -219,16 +181,14 @@
                                 <div class="top_addr">
                                     <span><i class="fa fa-map-marker" aria-hidden="true"></i> Brasil, Cascavel, 62850-000</span>
                                     <span><i class="fa fa-phone" aria-hidden="true"></i> (85)98415-0443</span>
-                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> 18:00 - 23:00</span>
-                                    <div class="pull-right search-block">
-                                        <i class="fa fa-search" id="search" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                                <div id="navbar_search">
-                                    <form method="post">
-                                        <input type="text" name="q" class="form-control pull-left" value="" placeholder="Search anything">
-                                        <button type="submit" class="pull-right close" id="search_close"><i class="fa fa-close"></i></button>
-                                    </form>
+
+                                    <?php $expedienteHoje = expedienteHoje(); ?>
+
+                                    <?php if ($expedienteHoje->situacao == false): ?>
+                                        <span><i class="fa fa-lock" aria-hidden="true"></i> Hoje estamos fechados</span>
+                                    <?php else: ?>
+                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> <?php echo esc($expedienteHoje->abertura) ?> - <?php echo esc($expedienteHoje->fechamento) ?></span>
+                                    <?php endif; ?>
                                 </div>
                             </div>
                             <!-- /.navbar_top -->
@@ -238,8 +198,9 @@
                                 <div id="navbar_content">
                                     <!-- Brand and toggle get grouped for better mobile display -->
                                     <div class="navbar-header">
-                                        <a class="navbar-brand" href="#">
-                                            <img src="<?php echo site_url('web/'); ?>src/assets/img/logo.png" alt="logo" />
+
+                                        <a class="navbar-brand" href="<?php echo site_url('/') ?>">
+                                            <img id="logo_main" src="<?php echo site_url('web/'); ?>src/assets/img/logo.png" alt="logo_main" />
                                         </a>
                                         <a href="#cd-nav" class="cd-nav-trigger right_menu_icon">
                                             <span><i class="fa fa-bars" aria-hidden="true"></i></span>
@@ -250,9 +211,8 @@
                                     <div class="collapse navbar-collapse" id="navbar">
                                         <div class="navbar-right">
                                             <ul class="nav navbar-nav">
-                                                <li><a class="page-scroll" href="#header">Inicio</a></li>
-                                                <li><a class="page-scroll" href="#about_us">Sobre</a></li>
-                                                <li><a class="page-scroll" href="#menu">Cardápio</a></li>
+                                                <li><a class="page-scroll" href="<?php echo site_url('/') ?>">Inicio</a></li>
+                                                <li><a class="page-scroll" href="<?php echo site_url('bairros') ?>">Bairros Atendidos</a></li>
                                                 <li><a class="page-scroll" href="#footer">Contato</a></li>
                                                 <?php if (session()->has('carrinho') && count(session()->get('carrinho')) > 0): ?>
                                                     <li><a class="page-scroll" href="<?php echo site_url('carrinho') ?>">
@@ -262,6 +222,15 @@
                                                             </span>
                                                         </a>
                                                     </li>
+                                                <?php endif; ?>
+                                                <?php if (usuario_logado()): ?>
+
+                                                    <li><a class="page-scroll" href="<?php echo site_url('conta') ?>">Minha conta</a></li>
+                                                    <li><a class="page-scroll" href="<?php echo site_url('login/logout') ?>">Sair</a></li>
+
+                                                <?php else: ?>
+                                                    <li><a class="page-scroll" href="<?php echo site_url('login') ?>">Entrar</a></li>
+                                                    <li><a class="page-scroll" href="<?php echo site_url('registrar') ?>">Registrar-se</a></li>
                                                 <?php endif; ?>
                                             </ul>
                                         </div>
@@ -295,6 +264,9 @@
                 <?php if (session()->has('fraude')): ?>
                     <div class="alert alert-warning" role="alert"> <?php echo session('fraude'); ?></div>
                 <?php endif; ?>
+                <?php if (session()->has('expediente')): ?>
+                    <div class="alert alert-warning" role="alert"> <?php echo session('expediente'); ?></div>
+                <?php endif; ?>
 
 
                 <?php if (session()->has('error')): ?>
@@ -306,95 +278,58 @@
             <?php $this->renderSection('conteudo'); ?>
 
             <!--  Begin Footer  -->
-            <footer id="footer">
+            <footer id="footer" ">
 
                 <!--    Contact    -->
 
                 <!--    Google map, Social links    -->
                 <div class="section" id="contact">
-                    <div id="googleMap"></div> 
+                    <div id="googleMap" style="max-height: 200px"></div> 
                     <div class="footer_pos">
                         <div class="container">
                             <div class="footer_content">
                                 <div class="row">
-                                    <div class="col-sm-6 col-md-4">
-                                        <h4 class="footer_ttl footer_ttl_padd">about us</h4>
-                                        <p class="footer_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries but also the leap into electronic typesetting. </p>
-                                    </div>
                                     <div class="col-sm-6 col-md-5">
-                                        <h4 class="footer_ttl footer_ttl_padd">working hours</h4>
+                                        <?php $expedientes = expedientes(); ?>
+
+                                        <h4 class="footer_ttl footer_ttl_padd">Nosso expediente</h4>
+
                                         <div class="footer_border">
-                                            <div class="week_row clearfix">
-                                                <div class="week_day">Monday</div>
-                                                <div class="week_time text-right">Closed</div>
-                                            </div>
-                                            <div class="week_row clearfix">
-                                                <div class="week_day">Tuesday</div>
-                                                <div class="week_time">
-                                                    <span class="week_time_start">10 am</span>
-                                                    <span class="week_time_node">-</span>
-                                                    <span class="week_time_end">12 am</span>
-                                                </div>
-                                            </div>
-                                            <div class="week_row clearfix">
-                                                <div class="week_day">Wednsday</div>
-                                                <div class="week_time">
-                                                    <span class="week_time_start">10 am</span>
-                                                    <span class="week_time_node">-</span>
-                                                    <span class="week_time_end">12 am</span>
+                                            <?php foreach ($expedientes as $dia): ?>
+                                                <div class="week_row clearfix">
+                                                    <div class="week_day"><?php echo esc($dia->dia_descricao) ?></div>
+                                                    <?php if ($dia->situacao == false): ?>
+                                                        <div class="week_time text-right">Fechado</div>
+                                                    <?php else: ?>
+                                                        <div class="week_time text-right">Aberto</div>
+
+                                                        <div class="week_time">
+                                                            <span class="week_time_start"><?php echo esc($dia->abertura) ?></span>
+                                                            <span class="week_time_node">-</span>
+                                                            <span class="week_time_end"><?php echo esc($dia->fechamento) ?></span>
+                                                        </div>
+
+                                                    <?php endif; ?>
                                                 </div>
 
-                                            </div>
-                                            <div class="week_row clearfix">
-                                                <div class="week_day">Thursday</div>
-                                                <div class="week_time">
-                                                    <span class="week_time_start">10 am</span>
-                                                    <span class="week_time_node">-</span>
-                                                    <span class="week_time_end">12 am</span>
-                                                </div>
-
-                                            </div>
-                                            <div class="week_row clearfix">
-                                                <div class="week_day">Friday</div>
-                                                <div class="week_time">
-                                                    <span class="week_time_start">10 am</span>
-                                                    <span class="week_time_node">-</span>
-                                                    <span class="week_time_end">12 am</span>
-                                                </div>
-
-                                            </div>
-                                            <div class="week_row clearfix">
-                                                <div class="week_day">Saturday</div>
-                                                <div class="week_time">
-                                                    <span class="week_time_start">7 am</span>
-                                                    <span class="week_time_node">-</span>
-                                                    <span class="week_time_end">1 am</span>
-                                                </div>
-                                            </div>
-                                            <div class="week_row clearfix">
-                                                <div class="week_day">Sunday</div>
-                                                <div class="week_time">
-                                                    <span class="week_time_start">7 am</span>
-                                                    <span class="week_time_node">-</span>
-                                                    <span class="week_time_end">1 am</span>
-                                                </div>
-                                            </div>
+                                            <?php endforeach; ?>
                                         </div>
+
                                     </div>
                                     <div class="col-sm-12 col-md-3">
-                                        <h4 class="footer_ttl footer_ttl_padd">contact us</h4>
+                                        <h4 class="footer_ttl footer_ttl_padd">Contato</h4>
                                         <div class="footer_border">
                                             <div class="footer_cnt">
                                                 <i class="fa fa-map-marker"></i>
-                                                <span>Your City, Your streert, 18765, 100 Tenth Avenue, New York City, NY 1001</span>
+                                                <span>Cascavel, Rua Joana Darc, 321, Jardim Primavera.</span>
                                             </div>
                                             <div class="footer_cnt">
                                                 <i class="fa fa-phone"></i>
-                                                <span>(457) 570 5682; (385) 620 756</span>
+                                                <span>(85) 98415-0443; (85) 99167-4535</span>
                                             </div>
                                             <div class="footer_cnt">
                                                 <i class="fa fa-envelope"></i>
-                                                <span>info@butazzopizza.net</span>
+                                                <span>deliciasdaauzi@gmail.com</span>
                                             </div>
                                         </div>
                                     </div>
@@ -411,22 +346,12 @@
                                         <div class="social-links">
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
-                                                    <a href="javascript:;" title="">
-                                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a href="javascript:;" title="">
+                                                    <a href="https://www.instagram.com/delicias_daauzi/" title="instagram">
                                                         <i class="fa fa-instagram" aria-hidden="true"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a href="javascript:;" title="">
-                                                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a href="javascript:;" title="">
+                                                    <a href="https://www.linkedin.com/in/lucas-azevedo01/" title="linkedin">
                                                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                                                     </a>
                                                 </li>
@@ -450,27 +375,45 @@
 
         <nav class="cd-nav-container right_menu" id="cd-nav">
             <div class="header__open_menu">
-                <a href="index-2.html" class="rmenu_logo" title="yagmurmebel.az">
-                    <img src="<?php echo site_url('web/'); ?>src/assets/img/logo.png" alt="logo" />
+                <a href="<?php echo site_url('/') ?>" class="rmenu_logo">
+                    <img id="logo_main_mobile" src="<?php echo site_url('web/'); ?>src/assets/img/logo.png" alt="logo_main_mobile" />
                 </a>
             </div>
-            <div class="right_menu_search">
-                <form method="post">
-                    <input type="text" name="q" class="form-control search_input" value="" placeholder="Search anything">
-                    <button type="submit" class="search_icon"><i class="fa fa-search"></i></button>
-                </form>
-            </div>
             <ul class="rmenu_list">
-                <li><a class="page-scroll" href="#header">Inicio</a></li>
-                <li><a class="page-scroll" href="#about_us">Sobre</a></li>
-                <li><a class="page-scroll" href="#menu">Cardápio</a></li>
-                <li><a class="page-scroll" href="#gallery">Galeria</a></li>
+                <li><a class="page-scroll" href="<?php echo site_url('/') ?>">Inicio</a></li>
+                <li><a class="page-scroll" href="<?php echo site_url('bairros') ?>">Bairros Atendidos</a></li>
                 <li><a class="page-scroll" href="#footer">Contato</a></li>
+                <?php if (session()->has('carrinho') && count(session()->get('carrinho')) > 0): ?>
+                    <li><a class="page-scroll" href="<?php echo site_url('carrinho') ?>">
+                            <div class="form-row">
+                                <i class="fa fa-shopping-cart fa fa-2x"></i>
+                                <p style="font-size: 25px !important">
+                                    <?php echo count(session()->get('carrinho')) ?>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                <?php endif; ?>
+                <?php if (usuario_logado()): ?>
+
+                    <li><a class="page-scroll" href="<?php echo site_url('conta') ?>">Minha conta</a></li>
+                    <li><a class="page-scroll" href="<?php echo site_url('login/logout') ?>">Sair</a></li>
+
+                <?php else: ?>
+                    <li><a class="page-scroll" href="<?php echo site_url('login') ?>">Entrar</a></li>
+                    <li><a class="page-scroll" href="<?php echo site_url('registrar') ?>">Registrar-se</a></li>
+                <?php endif; ?>
             </ul>
             <div class="right_menu_addr top_addr">
                 <span><i class="fa fa-map-marker" aria-hidden="true"></i> Brasil, Cascavel, 62850-000</span>
-                <span><i class="fa fa-phone" aria-hidden="true"></i> (85)98415-0443</span>
-                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 18:00 - 23:00</span>
+
+                <?php $expedienteHoje = expedienteHoje(); ?>
+
+                <?php if ($expedienteHoje->situacao == false): ?>
+                    <span><i class="fa fa-lock" aria-hidden="true"></i> Hoje estamos fechados</span>
+                <?php else: ?>
+                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> <?php echo esc($expedienteHoje->abertura) ?> - <?php echo esc($expedienteHoje->fechamento) ?></span>
+                <?php endif; ?>
             </div>
         </nav>
 
@@ -500,6 +443,43 @@
 
         <!-- Essa section renderizará os scripts específicos da view que estender esse layout -->
         <?php echo $this->renderSection('scripts'); ?>
+        <script>
+            function checkDevice() {
+                if (navigator.userAgent.match(/Android/i)
+                        || navigator.userAgent.match(/webOS/i)
+                        || navigator.userAgent.match(/iPhone/i)
+                        || navigator.userAgent.match(/iPad/i)
+                        || navigator.userAgent.match(/iPod/i)
+                        || navigator.userAgent.match(/BlackBerry/i)
+                        || navigator.userAgent.match(/Windows Phone/i)
+                        ) {
+                    return true; // está utilizando celular
+                } else {
+                    return false; // não é celular
+                }
+            }
+
+            var isMobile = checkDevice();
+
+            if (isMobile) {
+                var img_logo = document.getElementById('logo_main');
+                img_logo.style.width = '90%';
+                img_logo.style.height = 'auto';
+
+                var img_logo_mobile = document.getElementById('logo_main_mobile');
+                img_logo_mobile.style.width = '90%';
+                img_logo_mobile.style.height = 'auto';
+            } else {
+                var img_logo = document.getElementById('logo_main');
+                img_logo.style.width = '100%';
+                img_logo.style.height = 'auto';
+
+                var img_logo_mobile = document.getElementById('logo_main_mobile');
+                img_logo_mobile.style.width = '100%';
+                img_logo_mobile.style.height = 'auto';
+            }
+        </script>
+
 
     </body>
 

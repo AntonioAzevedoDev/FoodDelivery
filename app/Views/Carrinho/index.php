@@ -9,6 +9,28 @@
 
 <link rel="stylesheet" href="<?php echo site_url("web/src/assets/css/produto.css") ?>"></link>
 
+<style>
+
+    @media only screen and (max-width: 9000px){
+
+        .section-title{
+
+            font-size: 20px !important;
+            margin-top: -6em !important;
+
+        }
+        #card_carrinho{
+            margin-top: -6em !important;
+            min-width: 100% !important;
+        }
+
+        #button-group{
+            width: 50px;
+            margin: auto;
+        }
+    }
+
+</style>
 <?php echo $this->endSection(); ?>
 
 
@@ -19,7 +41,7 @@
 <div class="container section" id="menu" data-aos="fade-up" style="margin-top: 3em">
     <div class="col-sm-12 col-md-12 col-lg-12">
         <!-- product -->
-        <div class="product-content product-wrap clearfix product-deatil">
+        <div id="card_carrinho" class="product-content product-wrap clearfix product-deatil">
             <div class="row">
                 <?php if (!isset($carrinho)): ?>
                     <div class="text-center">
@@ -28,7 +50,7 @@
                     </div>
 
                 <?php else: ?>
-                    <div class="table-responsive">
+                    <div class="table-responsive" >
 
                         <?php if (session()->has('errors_model')): ?>
                             <ul style="list-style:decimal">
@@ -71,7 +93,7 @@
 
 
                                         </th>
-                                        <td><?php echo esc($produto->nome) ?></td>
+                                        <td style="max-width: 500px"><?php echo esc($produto->nome) ?></td>
                                         <td><?php echo esc($produto->tamanho) ?></td>
                                         <td class="text-center">
 
@@ -79,7 +101,7 @@
 
 
                                             <div class="form-group">
-                                                <input type="number" class="form-control" name="produto[quantidade]" value="<?php echo $produto->quantidade ?>" min="1" max="10" step="1" required="">
+                                                <input type="number" class="form-control" style="max-width: 50px" name="produto[quantidade]" value="<?php echo $produto->quantidade ?>" min="1" max="10" step="1" required="">
                                                 <input type="hidden" name="produto[slug]" value="<?php echo $produto->slug ?>">
                                             </div>
 
@@ -151,11 +173,18 @@
 
                     </div>
                     <hr>
-                    <div class="col-md-12">
+                    <div id="button-group-pc" class="col-md-12">
 
                         <a href="<?php echo site_url("carrinho/limpar") ?>" class="btn btn-default" style=" font-family: 'Montserrat-Bold'">Limpar carrinho</a>
                         <a href="<?php echo site_url("/") ?>" class="btn btn-primary" style=" font-family: 'Montserrat-Bold'">Mais delícias</a>
-                        <a href="<?php echo site_url("carrinho/checkout") ?>" class="btn pull-right" style="background-color: #990100; color: white; font-family: 'Montserrat-Bold'">Finalizar pedido</a>
+                        <a href="<?php echo site_url("checkout") ?>" class="btn pull-right" style="background-color: #990100; color: white; font-family: 'Montserrat-Bold'">Finalizar pedido</a>
+
+                    </div>
+                    <div id="button-group-mobile" class="col-md-12">
+
+                        <a href="<?php echo site_url("carrinho/limpar") ?>" class="btn btn-default" style=" font-family: 'Montserrat-Bold'">Limpar carrinho</a>
+                        <a href="<?php echo site_url("/") ?>" class="btn btn-primary" style=" margin-right: 2em; margin-top: 1em; font-family: 'Montserrat-Bold'">Mais delícias</a>
+                        <a href="<?php echo site_url("checkout") ?>" class="btn" style="margin-top: 1em; background-color: #990100; color: white; font-family: 'Montserrat-Bold'">Finalizar pedido</a>
 
                     </div>
                 <?php endif; ?>
@@ -184,7 +213,7 @@
     $("[name=cep]").focusout(function () {
         var valido = false;
         var cep = $(this).val();
-            
+
         if ($("[name=cep]").val() !== '62850-000') {
             $("#cep").html('<span class="text-danger small">Cep inválido: Só atendemos a região de Cascavel - CE</span>');
         } else {
@@ -279,6 +308,32 @@
 
 </script>
 
+<script>
+    function checkDevice() {
+        if (navigator.userAgent.match(/Android/i)
+                || navigator.userAgent.match(/webOS/i)
+                || navigator.userAgent.match(/iPhone/i)
+                || navigator.userAgent.match(/iPad/i)
+                || navigator.userAgent.match(/iPod/i)
+                || navigator.userAgent.match(/BlackBerry/i)
+                || navigator.userAgent.match(/Windows Phone/i)
+                ) {
+            return true; // está utilizando celular
+        } else {
+            return false; // não é celular
+        }
+    }
+
+    var isMobile = checkDevice();
+
+    if (isMobile) {
+        $("#button-group-mobile").show();
+        $("#button-group-pc").hide();
+    } else {
+        $("#button-group-mobile").hide();
+        $("#button-group-pc").show();
+    }
+</script>
 <?php echo $this->endSection(); ?>
 
 

@@ -2,7 +2,26 @@
 
 <?php echo $this->section('titulo'); ?> <?php echo $titulo; ?> <?php echo $this->endSection(); ?>
 
+<?php echo $this->section('estilos'); ?>
 
+<!-- Aqui enviamos para o template principal os estilos -->
+
+
+<style>
+    
+    @media only screen and (max-width: 9000px){
+        
+        .dia_descricao{
+            
+            min-width: 169% !important;
+            
+        }
+    }
+    
+</style>
+
+
+<?php echo $this->endSection(); ?>
 
 
 
@@ -27,7 +46,7 @@
 
                 <?php echo form_open("admin/expedientes/expedientes", ['class' => 'form-row']); ?>
                 <div class="table-responsive">
-                    <table class="table table-hover">
+                    <table class="table table-hover dia_descricao ">
                         <thead>
                             <tr>
                                 <th>Dia</th>
@@ -38,10 +57,10 @@
                         </thead>
                         <tbody>
                             <?php foreach ($expedientes as $dia): ?>
-                                <tr>
+                                <tr >
 
                                     <td class="form-group col-md-3">
-                                        <input type="type" name="dia_descricao[]" class="form-control" value="<?php echo esc($dia->dia_descricao); ?>" readonly=""></input>
+                                        <input type="text" name="dia_descricao[]" class="form-control" value="<?php echo esc($dia->dia_descricao); ?>" readonly=""></input>
                                     </td>
                                     <td class="form-group col-md-3">
                                         <input type="time" name="abertura[]" class="form-control" value="<?php echo esc($dia->abertura); ?>" required=""></input>

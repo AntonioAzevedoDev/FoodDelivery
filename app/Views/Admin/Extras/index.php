@@ -31,48 +31,52 @@
                     Cadastrar</a>
 
 
-                <div class="table-responsive">
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <th>Nome</th>
-                                <th>Preço</th>
-                                <th>Data de criação</th>
-                                <th>Ativo</th>
-                                <th>Situação</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php foreach ($extras as $extra): ?>
+                <?php if (empty($extras)): ?>
+                    <p>Não há dados para exibir</p>
+                <?php else: ?>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
                                 <tr>
-
-                                    <td>
-                                        <a href="<?php echo site_url("admin/extras/show/$extra->id"); ?>"><?php echo $extra->nome; ?></a>
-                                    </td>
-                                    <td>R$&nbsp;<?php echo esc(number_format($extra->preco, 2)); ?></td>
-                                    <td><?php echo $extra->criado_em->humanize(); ?></td>
-                                    <td><?php echo ($extra->ativo && $extra->deletado_em == null ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>'); ?></td>
-                                    <td>
-                                        <?php echo ($extra->deletado_em === null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluido</label>'); ?>
-                                        <?php if ($extra->deletado_em != null): ?>
-                                            <a href="<?php echo site_url("admin/extras/desfazerexclusao/$extra->id"); ?>" class="badge badge-dark ml-2">
-                                                <i class="mdi mdi-undo btn-icon-prepend"></i>
-                                                Desfazer</a>
-
-                                        <?php endif; ?>
-
-                                    </td>
-
-
-
+                                    <th>Nome</th>
+                                    <th>Preço</th>
+                                    <th>Data de criação</th>
+                                    <th>Ativo</th>
+                                    <th>Situação</th>
                                 </tr>
-                            <?php endforeach; ?>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($extras as $extra): ?>
+                                    <tr>
+
+                                        <td>
+                                            <a href="<?php echo site_url("admin/extras/show/$extra->id"); ?>"><?php echo $extra->nome; ?></a>
+                                        </td>
+                                        <td>R$&nbsp;<?php echo esc(number_format($extra->preco, 2)); ?></td>
+                                        <td><?php echo $extra->criado_em->humanize(); ?></td>
+                                        <td><?php echo ($extra->ativo && $extra->deletado_em == null ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>'); ?></td>
+                                        <td>
+                                            <?php echo ($extra->deletado_em === null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluido</label>'); ?>
+                                            <?php if ($extra->deletado_em != null): ?>
+                                                <a href="<?php echo site_url("admin/extras/desfazerexclusao/$extra->id"); ?>" class="badge badge-dark ml-2">
+                                                    <i class="mdi mdi-undo btn-icon-prepend"></i>
+                                                    Desfazer</a>
+
+                                            <?php endif; ?>
+
+                                        </td>
 
 
-                        </tbody>
-                    </table>
-                </div>
-                
+
+                                    </tr>
+                                <?php endforeach; ?>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                <?php endif; ?>
+
                 <div class="mt-3">
                     <?php echo $pager->links() ?>
                 </div>

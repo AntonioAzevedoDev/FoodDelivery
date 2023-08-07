@@ -31,46 +31,50 @@
                     Cadastrar</a>
 
 
-                <div class="table-responsive">
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <th>Nome</th>
-                                <th>Data de criação</th>
-                                <th>Ativo</th>
-                                <th>Situação</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php foreach ($medidas as $medida): ?>
+                <?php if (empty($medidas)): ?>
+                    <p>Não há dados para exibir</p>
+                <?php else: ?>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
                                 <tr>
-
-                                    <td>
-                                        <a href="<?php echo site_url("admin/medidas/show/$medida->id"); ?>"><?php echo $medida->nome; ?></a>
-                                    </td>
-                                    <td><?php echo $medida->criado_em->humanize(); ?></td>
-                                    <td><?php echo ($medida->ativo && $medida->deletado_em == null ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>'); ?></td>
-                                    <td>
-                                        <?php echo ($medida->deletado_em === null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluido</label>'); ?>
-                                        <?php if ($medida->deletado_em != null): ?>
-                                            <a href="<?php echo site_url("admin/medidas/desfazerexclusao/$medida->id"); ?>" class="badge badge-dark ml-2">
-                                                <i class="mdi mdi-undo btn-icon-prepend"></i>
-                                                Desfazer</a>
-
-                                        <?php endif; ?>
-
-                                    </td>
-
-
-
+                                    <th>Nome</th>
+                                    <th>Data de criação</th>
+                                    <th>Ativo</th>
+                                    <th>Situação</th>
                                 </tr>
-                            <?php endforeach; ?>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($medidas as $medida): ?>
+                                    <tr>
+
+                                        <td>
+                                            <a href="<?php echo site_url("admin/medidas/show/$medida->id"); ?>"><?php echo $medida->nome; ?></a>
+                                        </td>
+                                        <td><?php echo $medida->criado_em->humanize(); ?></td>
+                                        <td><?php echo ($medida->ativo && $medida->deletado_em == null ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>'); ?></td>
+                                        <td>
+                                            <?php echo ($medida->deletado_em === null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluido</label>'); ?>
+                                            <?php if ($medida->deletado_em != null): ?>
+                                                <a href="<?php echo site_url("admin/medidas/desfazerexclusao/$medida->id"); ?>" class="badge badge-dark ml-2">
+                                                    <i class="mdi mdi-undo btn-icon-prepend"></i>
+                                                    Desfazer</a>
+
+                                            <?php endif; ?>
+
+                                        </td>
 
 
-                        </tbody>
-                    </table>
-                </div>
-                
+
+                                    </tr>
+                                <?php endforeach; ?>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                <?php endif; ?>
+
                 <div class="mt-3">
                     <?php echo $pager->links() ?>
                 </div>

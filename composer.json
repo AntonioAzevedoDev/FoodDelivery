@@ -9,6 +9,8 @@
         "ext-intl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.7",
+        "jhowbhz/package-apigratis": "^0.2.8",
         "laminas/laminas-escaper": "^2.9",
         "psr/log": "^1.1"
     },
