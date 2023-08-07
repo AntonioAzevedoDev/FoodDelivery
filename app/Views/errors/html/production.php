@@ -16,7 +16,7 @@
 
         <h1 class="headline"><?= lang('Errors.whoops') ?></h1>
 
-        <p class="lead"><?= lang('Errors.weHitASnag') ?></p>
+        <p class="lead">Não conseguimos processar a página que você precisa. Nossos desenvolvedores já foram notificados e pedimos a gentileza que tente novamente mais tarde.</p>
 
     </div>
 

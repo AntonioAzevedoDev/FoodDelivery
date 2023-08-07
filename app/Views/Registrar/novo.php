@@ -9,6 +9,19 @@
 
 <link rel="stylesheet" href="<?php echo site_url("web/src/assets/css/produto.css") ?>"></link>
 
+<style>
+    
+    @media only screen and (max-width: 767px){
+        
+        #registrar{
+            
+            min-width: 100% !important;
+            
+        }
+    }
+    
+</style>
+
 <?php echo $this->endSection(); ?>
 
 
@@ -17,14 +30,14 @@
 <?php echo $this->section('conteudo'); ?>
 
 <div class="container section" id="menu" data-aos="fade-up" style="margin-top: 3em">
-    <div class="product-content product-wrap clearfix product-deatil center-block" style="max-width: 40%">
+    <div id="registrar" class="product-content product-wrap clearfix product-deatil center-block" style="max-width: 40%">
         <div class="row">
 
             <div class="col-md-12">
                 <p><?php echo $titulo ?></p>
 
                 <?php if (session()->has('errors_model')): ?>
-                    <ul>
+                    <ul style="margin-left: -1.6em  !important;">
                         <?php foreach (session('errors_model') as $error): ?>
                             <li class="text-danger"><?php echo $error; ?></li>
                         <?php endforeach; ?>
@@ -44,6 +57,10 @@
                     <div class="form-group">
                         <label >CPF válido</label>
                         <input type="cpf" class="cpf form-control" name="cpf" value="<?php echo old('cpf') ?>">
+                    </div>
+                    <div class="form-group">
+                        <label >Telefone(WhatsApp)</label>
+                        <input type="cpf" class="form-control sp_celphones" name="telefone" value="<?php echo old('telefone') ?>">
                     </div>
                     <div class="form-group">
                         <label >Senha</label>

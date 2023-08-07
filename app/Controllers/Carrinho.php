@@ -13,6 +13,8 @@ class Carrinho extends BaseController {
     private $medidaModel;
     private $bairroModel;
     private $acao;
+    private $horaAtual;
+    private $expedienteHoje;
 
     public function __construct() {
         $this->validacao = service('validation');
@@ -22,6 +24,8 @@ class Carrinho extends BaseController {
         $this->medidaModel = new \App\Models\MedidaModel();
         $this->bairroModel = new \App\Models\BairroModel();
         $this->acao = service('router')->methodName();
+
+        $this->horaAtual = date('H:i');
     }
 
     public function index() {
@@ -41,6 +45,21 @@ class Carrinho extends BaseController {
     public function adicionar() {
 
         if ($this->request->getMethod() === 'post') {
+
+            $this->expedienteHoje = expedienteHoje();
+
+
+            if ($this->expedienteHoje->situacao == false) {
+                return redirect()->back()->with('expediente', 'Hoje estamos fechados para dar uma geral na casa.');
+            }
+            if ($this->expedienteHoje->dia_descricao == 'Domingo') {
+                if ($this->horaAtual > $this->expedienteHoje->fechamento || $this->horaAtual < $this->expedienteHoje->abertura) {
+                    return redirect()->back()->with('expediente', "Nosso horário de atendimento para o " . $this->expedienteHoje->dia_descricao . " é das " . $this->expedienteHoje->abertura . " às " . $this->expedienteHoje->fechamento);
+                }
+            }
+            if ($this->horaAtual > $this->expedienteHoje->fechamento || $this->horaAtual < $this->expedienteHoje->abertura) {
+                return redirect()->back()->with('expediente', "Nosso horário de atendimento para a " . $this->expedienteHoje->dia_descricao . " é das " . $this->expedienteHoje->abertura . " às " . $this->expedienteHoje->fechamento);
+            }
 
             $produtoPost = $this->request->getPost('produto');
 
@@ -134,6 +153,19 @@ class Carrinho extends BaseController {
 
             $produtoPost = $this->request->getPost();
 
+            $this->expedienteHoje = expedienteHoje();
+
+
+            if ($this->expedienteHoje->situacao == false) {
+                return redirect()->back()->with('expediente', 'Hoje estamos fechados para dar uma geral na casa.');
+            }
+
+            if ($this->expedienteHoje->dia_descricao == 'Domingo' && $this->horaAtual > $this->expedienteHoje->fechamento || $this->horaAtual < $this->expedienteHoje->abertura) {
+                return redirect()->back()->with('expediente', "Nosso horário de atendimento para o " . $this->expedienteHoje->dia_descricao . " é das " . $this->expedienteHoje->abertura . " às " . $this->expedienteHoje->fechamento);
+            }
+            if ($this->horaAtual > $this->expedienteHoje->fechamento || $this->horaAtual < $this->expedienteHoje->abertura) {
+                return redirect()->back()->with('expediente', "Nosso horário de atendimento para a " . $this->expedienteHoje->dia_descricao . " é das " . $this->expedienteHoje->abertura . " às " . $this->expedienteHoje->fechamento);
+            }
 
             $this->validacao->setRules([
                 'primeira_metade' => ['label' => 'Primeiro produto', 'rules' => 'required|greater_than[0]'],
@@ -339,49 +371,47 @@ class Carrinho extends BaseController {
 
 
         if ($consulta->bairro == null) {
-            $consulta->bairro = $this->bairroModel->select('bairros.slug, bairros.nome')->where('id',$this->request->getGet('bairro'))->where('ativo', true)->first()->toArray();
-            
+            $consulta->bairro = $this->bairroModel->select('bairros.slug, bairros.nome')->where('id', $this->request->getGet('bairro'))->where('ativo', true)->first()->toArray();
         }
 
-            $bairro = $this->bairroModel->select('nome,valor_entrega')->where('slug', $consulta->bairro['slug'])->where('ativo', true)->first();
-            
-            if ($cep != '62850000') {
-                if ($consulta->bairro == null || $bairro == null) {
+        $bairro = $this->bairroModel->select('nome,valor_entrega')->where('slug', $consulta->bairro['slug'])->where('ativo', true)->first();
 
-                    $retorno['erro'] = '<span class="text-danger small">Não atendemos o Bairro: '
-                            . esc($consulta->bairro)
-                            . ' - '. esc($consulta->localidade)
-                            . ' - CEP '. esc($consulta->cep)
-                            . ' - '. esc($consulta->uf)
-                            . '</span>';
+        if ($cep != '62850000') {
+            if ($consulta->bairro == null || $bairro == null) {
 
-                    return $this->response->setJSON($retorno);
-                }
+                $retorno['erro'] = '<span class="text-danger small">Não atendemos o Bairro: '
+                        . esc($consulta->bairro)
+                        . ' - ' . esc($consulta->localidade)
+                        . ' - CEP ' . esc($consulta->cep)
+                        . ' - ' . esc($consulta->uf)
+                        . '</span>';
+
+                return $this->response->setJSON($retorno);
             }
+        }
 
-            $retorno['valor_entrega'] = 'R$ ' . esc(number_format($bairro->valor_entrega, 2));
+        $retorno['valor_entrega'] = 'R$ ' . esc(number_format($bairro->valor_entrega, 2));
 
-            $retorno['bairro'] = '<span class="text">Valor de entrega para o Bairro: '
-                    . esc($consulta->bairro['nome'])
-                    . ' - ' . esc($consulta->localidade)
-                    . ' - CEP ' . esc($consulta->cep)
-                    . ' - ' . esc($consulta->uf)
-                    . ' - R$ ' . esc(number_format($bairro->valor_entrega, 2))
-                    . '</span>';
+        $retorno['bairro'] = '<span class="text">Valor de entrega para o Bairro: '
+                . esc($consulta->bairro['nome'])
+                . ' - ' . esc($consulta->localidade)
+                . ' - CEP ' . esc($consulta->cep)
+                . ' - ' . esc($consulta->uf)
+                . ' - R$ ' . esc(number_format($bairro->valor_entrega, 2))
+                . '</span>';
 
-            $carrinho = session()->get('carrinho');
-            $total = 0;
+        $carrinho = session()->get('carrinho');
+        $total = 0;
 
-            foreach ($carrinho as $produto) {
-                $total += $produto['preco'] * $produto['quantidade'];
-            }
+        foreach ($carrinho as $produto) {
+            $total += $produto['preco'] * $produto['quantidade'];
+        }
 
-            $total += esc(number_format($bairro->valor_entrega, 2));
+        $total += esc(number_format($bairro->valor_entrega, 2));
 
-            $retorno['total'] = 'R$ ' . esc(number_format($total, 2));
+        $retorno['total'] = 'R$ ' . esc(number_format($total, 2));
 
-            return $this->response->setJSON($retorno);
-        
+        return $this->response->setJSON($retorno);
     }
 
     private function atualizaProduto(string $acao, string $slug, int $quantidade, array $produtos) {
@@ -418,6 +448,13 @@ class Carrinho extends BaseController {
 
             return $linha['slug'] != $slug;
         });
+    }
+
+    private function recuperaExpedienteDeHoje() {
+
+        $expedienteHoje = $this->expedienteHoje();
+
+        return $expedienteHoje;
     }
 
 }

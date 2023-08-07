@@ -31,48 +31,52 @@
                     Cadastrar</a>
 
 
-                <div class="table-responsive">
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <th>Nome</th>
-                                <th>Valor de entrega</th>
-                                <th>Data de criação</th>
-                                <th>Ativo</th>
-                                <th>Situação</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php foreach ($bairros as $bairro): ?>
+                <?php if (empty($bairros)): ?>
+                    <p>Não há dados para exibir</p>
+                <?php else: ?>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
                                 <tr>
-
-                                    <td>
-                                        <a href="<?php echo site_url("admin/bairros/show/$bairro->id"); ?>"><?php echo $bairro->nome; ?></a>
-                                    </td>
-                                    <td>R$&nbsp;<?php echo esc(number_format($bairro->valor_entrega, 2)); ?></td>
-                                    <td><?php echo $bairro->criado_em->humanize(); ?></td>
-                                    <td><?php echo ($bairro->ativo && $bairro->deletado_em == null ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>'); ?></td>
-                                    <td>
-                                        <?php echo ($bairro->deletado_em === null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluido</label>'); ?>
-                                        <?php if ($bairro->deletado_em != null): ?>
-                                            <a href="<?php echo site_url("admin/bairros/desfazerexclusao/$bairro->id"); ?>" class="badge badge-dark ml-2">
-                                                <i class="mdi mdi-undo btn-icon-prepend"></i>
-                                                Desfazer</a>
-
-                                        <?php endif; ?>
-
-                                    </td>
-
-
-
+                                    <th>Nome</th>
+                                    <th>Valor de entrega</th>
+                                    <th>Data de criação</th>
+                                    <th>Ativo</th>
+                                    <th>Situação</th>
                                 </tr>
-                            <?php endforeach; ?>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($bairros as $bairro): ?>
+                                    <tr>
+
+                                        <td>
+                                            <a href="<?php echo site_url("admin/bairros/show/$bairro->id"); ?>"><?php echo $bairro->nome; ?></a>
+                                        </td>
+                                        <td>R$&nbsp;<?php echo esc(number_format($bairro->valor_entrega, 2)); ?></td>
+                                        <td><?php echo $bairro->criado_em->humanize(); ?></td>
+                                        <td><?php echo ($bairro->ativo && $bairro->deletado_em == null ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>'); ?></td>
+                                        <td>
+                                            <?php echo ($bairro->deletado_em === null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluido</label>'); ?>
+                                            <?php if ($bairro->deletado_em != null): ?>
+                                                <a href="<?php echo site_url("admin/bairros/desfazerexclusao/$bairro->id"); ?>" class="badge badge-dark ml-2">
+                                                    <i class="mdi mdi-undo btn-icon-prepend"></i>
+                                                    Desfazer</a>
+
+                                            <?php endif; ?>
+
+                                        </td>
 
 
-                        </tbody>
-                    </table>
-                </div>
-                
+
+                                    </tr>
+                                <?php endforeach; ?>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                <?php endif; ?>
+
                 <div class="mt-3">
                     <?php echo $pager->links() ?>
                 </div>

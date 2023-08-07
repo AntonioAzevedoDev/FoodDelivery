@@ -35,15 +35,16 @@
 
 </div>
 
-<div class="form-check form-check-flat form-check-primary mb-2">
-    <label for="ativo" class="form-check-label">
+<?php if (usuario_logado()->id != $usuario->id): ?>
+    <div class="form-check form-check-flat form-check-primary mb-2">
+        <label for="ativo" class="form-check-label">
 
-        <input type="hidden" value="0" name="ativo">
+            <input type="hidden" value="0" name="ativo">
 
-        <input type="checkbox" class="form-check-input" id="ativo" name="ativo" value="1" <?php if (old('ativo', $usuario->ativo)): ?> checked="" <?php endif; ?>>
-        Ativo
-    </label>
-</div>
+            <input type="checkbox" class="form-check-input" id="ativo" name="ativo" value="1" <?php if (old('ativo', $usuario->ativo)): ?> checked="" <?php endif; ?>>
+            Ativo
+        </label>
+    </div>
 
 <div class="form-check form-check-flat form-check-primary mb-4">
     <label for="is_admin" class="form-check-label">
@@ -54,7 +55,7 @@
         Administrador
     </label>
 </div>
-
+<?php endif; ?>
 
 <button type="submit" class="btn btn-primary mr-2 btn-sm">
     <i class="mdi mdi-checkbox-marked-circle btn-icon-prepend"></i>

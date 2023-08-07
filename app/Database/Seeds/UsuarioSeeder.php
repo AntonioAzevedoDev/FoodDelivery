@@ -14,17 +14,12 @@ class UsuarioSeeder extends Seeder
             'nome' => 'Lucas Silva',
             'email' => 'lucassilva.eq@gmail.com',
             'telefone' => '85 - 99167-4535',
-            'cpf' => '045.385.210-60',
+            'is_admin' => true,
+            'cpf' => '036.952.503-56',
+            'ativo' => true,
             'password' => '123456',
-            'password_confirmation'=>'123456'
         ];
         
-        $usuarioModel -> protect(false) -> insert($usuario);
-        
-       
-        
-        $usuarioModel -> protect(false) -> insert($usuario);
-        
-        dd($usuarioModel -> errors());
+        $usuarioModel->skipValidation(true) -> protect(false) -> insert($usuario);
     }
 }

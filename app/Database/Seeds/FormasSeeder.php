@@ -17,8 +17,5 @@ class FormasSeeder extends Seeder
         ];
         
         $formaModel->skipValidation(true)->insert($forma);
-        
-        
-        dd($formaModel->errors());
     }
 }
