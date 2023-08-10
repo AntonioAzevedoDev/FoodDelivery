@@ -12,7 +12,8 @@
         "guzzlehttp/guzzle": "^7.7",
         "jhowbhz/package-apigratis": "^0.2.8",
         "laminas/laminas-escaper": "^2.9",
-        "psr/log": "^1.1"
+        "psr/log": "^1.1",
+        "sendgrid/sendgrid": "~7"
     },
     "require-dev": {
         "kint-php/kint": "^5.0.4",
@@ -22,7 +23,8 @@
         "mikey179/vfsstream": "^1.6",
         "nexusphp/cs-config": "^3.6",
         "phpunit/phpunit": "^9.1",
-        "predis/predis": "^1.1 || ^2.0"
+        "predis/predis": "^1.1 || ^2.0",
+        "sendgrid/sendgrid": "~7"
     },
     "suggest": {
         "ext-curl": "If you use CURLRequest class",

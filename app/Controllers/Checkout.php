@@ -123,7 +123,6 @@ class Checkout extends BaseController {
     public function processar() {
 
         if ($this->request->getMethod() === 'post') {
-
             $checkoutPost = $this->request->getPost('checkout');
             $validacao = service('validation');
 
@@ -204,12 +203,75 @@ class Checkout extends BaseController {
 
             $pedido->usuario = $this->usuario;
 
-            $this->enviaMensagemPedidoRealizado($pedido);
+            $this->enviaMensagemPedidoRealizadoWhats($pedido, false);
 
             session()->remove('carrinho');
             session()->remove('endereco_entrega');
 
             return redirect()->to(site_url("checkout/sucesso/$pedido->codigo"));
+        } else {
+            return redirect()->back();
+        }
+    }
+    
+    public function processar_retirada() {
+
+        if ($this->request->getMethod() === 'post') {
+            
+            $checkoutPost = $this->request->getPost('checkout');
+            
+            $forma = $this->formaPagamentoModel->where('id', $checkoutPost['forma_id_retirada'])->where('ativo', true)->first();
+
+            if ($forma == null) {
+                return redirect()->back()
+                                ->with('atencao', "Por favor escolha a <strong>Forma de pagamento na Entrega</strong> e tente novamente");
+            }
+
+            $bairro = 'jardim-primavera';
+
+            $pedido = new \App\Entities\Pedido();
+
+            $pedido->usuario_id = $this->usuario->id;
+            $pedido->codigo = $this->pedidoModel->geraCodigoPedido();
+            $pedido->forma_pagamento = $forma->nome;
+            $pedido->produtos = serialize(session()->get('carrinho'));
+            $pedido->valor_produtos = number_format($this->somaValorProdutosCarrinho(), 2);
+            $pedido->valor_entrega = 0;
+            $pedido->valor_pedido = number_format($pedido->valor_produtos + $pedido->valor_entrega, 2);
+            $pedido->endereco_entrega = 'Rua Joana Darc - 321 - Jardim Primavera';
+            
+            if ($forma->id == 1) {
+                $sem_troco = $this->request->getPost('sem_troco_retirada');
+                if ($sem_troco != null) {
+
+                    $pedido->observacoes = 'Ponto de referência para retirada: Delicias da Auzi - Número: 321 - Você informou que não precisa de troco';
+                }
+
+                if (isset($checkoutPost['troco_para_retirada'])) {
+
+
+                    $trocoPara = str_replace(',', '', $checkoutPost['troco_para_retirada']);
+
+                    if ($trocoPara < 1) {
+
+                        return redirect()->back()->with('atencao', 'Ao escolher que <strong>Precisa de troco</strong>, por favor informe um valor maior que 0');
+                    }
+                    $pedido->observacoes = 'Ponto de referência para retirada: Delicias da Auzi - Você informou que precisa de troco para: R$ ' . number_format($trocoPara, 2);
+                }
+            } else {
+
+                $pedido->observacoes = 'Ponto de referência para retirada: Delicias da Auzi - número: 321';
+            }
+
+            $this->pedidoModel->save($pedido);
+
+            $pedido->usuario = $this->usuario;
+            
+            $this->enviaMensagemPedidoRealizadoWhats($pedido , true);
+
+            session()->remove('carrinho');
+            
+            return redirect()->to(site_url("checkout/sucesso_retirada/$pedido->codigo"));
         } else {
             return redirect()->back();
         }
@@ -227,6 +289,18 @@ class Checkout extends BaseController {
         
         return view('Checkout/sucesso', $data);
     }
+    public function sucesso_retirada($codigoPedido = null) {
+
+        $pedido = $this->buscaPedidoOu404($codigoPedido);
+
+        $data = [
+            'titulo' => "Pedido $codigoPedido realizado com sucesso",
+            'pedido' => $pedido,
+            'produtos' => unserialize($pedido->produtos),
+        ];
+        
+        return view('Checkout/sucesso_retirada', $data);
+    }
 
     private function somaValorProdutosCarrinho() {
 
@@ -239,7 +313,7 @@ class Checkout extends BaseController {
         return array_sum($produtosCarrinho);
     }
 
-    private function enviaMensagemPedidoRealizadoWhats(object $pedido) {
+    private function enviaMensagemPedidoRealizadoWhats(object $pedido, $retirada = false) {
 
         $produtos_pedido = session()->get('carrinho');
         $produtos_mensagem = "*Descrição do pedido:* \n";
@@ -259,6 +333,7 @@ class Checkout extends BaseController {
         $telefone_usuario = str_replace('-', '', $telefone_usuario);
         $codigo_pedido = esc($pedido->codigo);
         $nome_cliente = esc($pedido->usuario->nome);
+        if($retirada == false){
         $mensagem = "Pedido *$codigo_pedido* realizado com sucesso!\n" .
                 "Olá *$nome_cliente*, recebemos o seu pedido *$codigo_pedido* \n" .
                 "Estamos acelerando do lado de cá para que o seu pedido fique pronto rapidinho. Logo logo ele sairá para entrega.\n" .
@@ -275,7 +350,24 @@ class Checkout extends BaseController {
                 "*Observações do pedido:* \n" .
                 "$pedido->observacoes";
 
-
+        }
+        else{
+            $mensagem = "Pedido *$codigo_pedido* realizado com sucesso!\n" .
+                "Olá *$nome_cliente*, recebemos o seu pedido *$codigo_pedido* \n" .
+                "Estamos acelerando do lado de cá para que o seu pedido fique pronto rapidinho. Logo logo ele sairá para entrega.\n" .
+                "Não se preocupe, quando isso acontecer, avisaremos você por mensagem, beleza ?\n " .
+                "\n \n" .
+                "$produtos_mensagem" .
+                "-----------------------------------\n " .
+                "*Valor do pedido: R$ $pedido->valor_pedido* \n" .
+                "-----------------------------------\n " .
+                "\n \n" .
+                "*Endereço de retirada:* \n " .
+                "$pedido->endereco_entrega" .
+                "\n \n" .
+                "*Observações do pedido:* \n" .
+                "$pedido->observacoes";
+        }
         $headers = [
             'Content-Type' => 'application/json'
         ];

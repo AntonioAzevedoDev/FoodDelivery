@@ -69,11 +69,21 @@
                     </ul>
                     <a href="<?php echo site_url("/") ?>" class="btn btn-food">Acho que quero mais delícias</a>
                     <a href="<?php echo site_url("carrinho") ?>" class="btn btn-primary" style=" font-family: 'Montserrat-Bold'">Ver o que tenho no carrinho</a>
+                    
+                    <div class="form-group col-md-12" style="padding-left: 0">
+                        <label>
+                            <input type="checkbox" id="retirada" name="retirada">
+                            Vou retirar no local
+                        </label>
+                        
 
 
+                    </div>
                 </div>
+                
+                
 
-                <div class="col-md-6">
+                <div id="endereco_tabela" class="col-md-6">
 
                     <?php echo form_open('checkout/processar', ['id' => 'form-checkout']); ?>
                     <?php if (session()->has('errors_model')): ?>
@@ -145,15 +155,15 @@
                         </div>
                         <div class="form-group col-md-9" style="padding-left: 0">
                             <label>Rua *</label>
-                            <input id="rua" type="text" name="checkout[rua]" class="form-control"  value="" required="" readonly="">
+                            <input id="rua" type="text" name="checkout[rua]" class="form-control"  value=""  readonly="">
                         </div> 
                         <div class="form-group col-md-3" style="padding-left: 0">
                             <label>Numero *</label>
-                            <input type="text" name="checkout[numero]" class="form-control" value="" required="">
+                            <input type="text" name="checkout[numero]" class="form-control" value="" >
                         </div> 
                         <div class="form-group col-md-12" style="padding-left: 0">
                             <label>Ponto de referência *</label>
-                            <input type="text" name="checkout[referencia]" class="form-control" value="" required="">
+                            <input type="text" name="checkout[referencia]" class="form-control" value="" >
                         </div> 
 
                         <div class="form-group col-md-12" >
@@ -163,7 +173,6 @@
 
                         </div>
                         <div class="form-group col-md-12" style="padding-left: 0">
-
                             <input type="submit" id="btn-checkout" class="btn btn-food btn-block" value="Antes consulte a taxa de entrega">
 
 
@@ -175,6 +184,69 @@
 
                     <?php echo form_close() ?>
 
+                </div>
+                
+                <div id="endereco_tabela_retirada" class="col-md-6" disabled="true">
+
+                    <?php echo form_open('checkout/processar_retirada'); ?>
+                    <?php if (session()->has('errors_model')): ?>
+                        <ul style="list-style:decimal;margin-left: -2em">
+                            <?php foreach (session('errors_model') as $error): ?>
+                                <li class="text-danger"><?php echo $error; ?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    <?php endif; ?>
+                    <p style="font-size: 18px; font-weight: bold">Escolha a forma de pagamento na entrega</p>
+                    <div class="form-row">
+                        <?php foreach ($formas as $forma): ?>
+                            <div class="radio">
+                                <label style="font-size: 16px">
+                                    <input type="radio" name="forma_retirada" data-forma="<?php echo $forma->id ?>" style="margin-top: 2px" class="forma_retirada" id="forma_retirada">
+                                    <?php echo esc($forma->nome) ?>
+                                </label>
+                            </div>
+                        <?php endforeach; ?>
+                        <div id="pix_data_retirada" class="hidden" >
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div>
+                                        <strong>Dados do PIX</strong>
+                                        <p style="margin-top: 0.5em">CPF: <strong>760.510.723.49</strong></p>
+                                        <p>Nome: <strong>Maria Auzilene Dantas da Silva</strong></p>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <hr>
+
+                        <div id="troco_retirada" class="hidden">
+
+                            <div class="form-group col-md-12" style="padding-left: 0">
+                                <label>Troco para</label>
+                                <input type="text" id="troco_para_retirada" name="troco_para_retirada" class="form-control money" placeholder="Troco para">
+
+                                <label>
+                                    <input type="checkbox" id="sem_troco_retirada" name="sem_troco_retirada">
+                                    Não preciso de troco
+                                </label>
+                                <hr>
+                            </div>
+
+                        </div>
+                        
+                        
+                        <div class="form-group col-md-12" style="padding-left: 0">
+                            <input type="submit" id="btn-checkout-retirada" class="btn btn-food btn-block" value="Finalizar Pedido">
+
+                        </div>
+                        <div class="form-group col-md-12" >
+
+                            <input type="hidden" id="forma_id_retirada" name="checkout[forma_id_retirada]" placeholder="checkout[forma_id_retirada]">
+
+                        </div>
+                    </div>
+                    <?php form_close()?>
                 </div>
 
             </div>
@@ -195,7 +267,10 @@
 <script src="<?php echo site_url('admin/vendors/mask/app.js'); ?>"></script>
 
 <script>
-
+    $("#btn-checkout-retirada").hide();
+    $("#endereco_tabela_retirada").hide();
+    
+    $("#endereco_tabela_retirada").prop('disabled', true);
     $("#btn-checkout").prop('disabled', true);
 
     $(".forma").on('click', function () {
@@ -229,6 +304,37 @@
         }
 
     });
+    $(".forma_retirada").on('click', function () {
+
+        var forma_id = $(this).attr('data-forma');
+
+        $("#forma_id_retirada").val(forma_id);
+
+        if (forma_id == 1) {
+
+            $("#troco_retirada").removeClass('hidden');
+
+        } else {
+            $("#troco_retirada").addClass('hidden');
+        }
+
+    });
+
+    $(".forma_retirada").on('click', function () {
+
+        var forma_id = $(this).attr('data-forma');
+
+        $("#forma_id_retirada").val(forma_id);
+
+        if (forma_id == 4) {
+
+            $("#pix_data_retirada").removeClass('hidden');
+
+        } else {
+            $("#pix_data_retirada").addClass('hidden');
+        }
+
+    });
 
     $("#sem_troco").on('click', function () {
 
@@ -244,6 +350,51 @@
             $("#troco_para").attr('placeholder', 'Enviar troco para')
             $("#troco_para").val('');
 
+        }
+
+    });
+    
+    $("#sem_troco_retirada").on('click', function () {
+
+
+        if (this.checked) {
+
+            $("#troco_para_retirada").prop('disabled', true);
+            $("#troco_para_retirada").val('Não preciso de troco pois tenho o valor certinho');
+
+            $("#troco_para_retirada").attr('placeholder', 'Não preciso de troco pois tenho o valor certinho')
+        } else {
+            $("#troco_para_retirada").prop('disabled', false);
+            $("#troco_para_retirada").attr('placeholder', 'Enviar troco para')
+            $("#troco_para_retirada").val('');
+
+        }
+
+    });
+    $("#retirada").on('click', function () {
+
+
+        if (this.checked) {
+
+            $("#endereco_tabela").prop('disabled', true);
+            $("#btn-checkout-retirada").show();
+            $("#endereco_tabela_retirada").show();
+            $("#endereco_tabela").hide();
+            $("#endereco").html('Retirada');
+            $("#valor_entrega").html('0');
+            $("#form-checkout").prop('disabled', true);
+            
+
+
+
+        } else {
+
+            $("#endereco_tabela").prop('disabled', false);
+            $("#endereco_tabela_retirada").prop('disabled', true);
+            $("#btn-checkout-retirada").hide();
+            $("#endereco_tabela_retirada").hide();
+            $("#endereco_tabela").show();
+            $("#form-checkout").prop('disabled', false);
         }
 
     });
@@ -370,20 +521,20 @@
         }
 
     });
-    
-    $("form").submit(function(){
-    
+
+    $("form").submit(function () {
+
         $(this).find(":submit").attr('disabled', 'disabled');
         $("#btn-checkout").val('Processando o seu pedido...');
     });
 
-    $(window).keydown(function(event){
-        
-        if(event.keyCode == 13){
+    $(window).keydown(function (event) {
+
+        if (event.keyCode == 13) {
             event.preventDefault();
             return false;
         }
-        
+
     });
 </script>
 
