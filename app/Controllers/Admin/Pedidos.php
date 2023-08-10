@@ -137,7 +137,7 @@ class Pedidos extends BaseController {
                 if ($pedido->situacao == 2) {
 
 
-                    $this->enviaMensagemPedidoFoiEntregue($pedido);
+                    $this->enviaMensagemPedidoFoiEntregueWhats($pedido);
 
                     $this->insereProdutosDoPedido($pedido);
                 }
@@ -145,7 +145,7 @@ class Pedidos extends BaseController {
                 if ($pedido->situacao == 3) {
 
 
-                    $this->enviaMensagemPedidoFoiCancelado($pedido);
+                    $this->enviaMensagemPedidoFoiCanceladoWhats($pedido);
 
                     if ($situacaoAnteriorPedido == 1) {
 
@@ -275,7 +275,39 @@ class Pedidos extends BaseController {
 
         $email->send();
     }
+    private function enviaMensagemPedidoFoiEntregueWhats(object $pedido) {
 
+        $entregador = $pedido->entregador;
+        $client = new Client(['verify' => false]);
+        $telefone_usuario = str_replace('(', '', $pedido->telefone);
+        $telefone_usuario = str_replace(')', '', $telefone_usuario);
+        $telefone_usuario = str_replace(' ', '', $telefone_usuario);
+        $telefone_usuario = str_replace('-', '', $telefone_usuario);
+        $codigo_pedido = esc($pedido->codigo);
+        $nome_cliente = esc($pedido->nome);
+        $mensagem = "Obaa, o seu  pedido *$codigo_pedido* foi entregue! \n" .
+                "Esperamos que você aproveite ao máximo a experiência e sabor que só a *Delicias da Auzi Delivery* pode oferecer!\n" .
+                "Se possível faz um stories e marca a gente no Insta, ajuda bastante :D \n " .
+                "@delicias_daauzi\n " .
+                "Bom apetite! ";
+
+
+        $headers = [
+            'Content-Type' => 'application/json'
+        ];
+        $body = "{
+            'apikey': 'a581c6d8-bd39-4c8f-92fa-db258986c4a5',
+            'phone_number': '5585991674535',
+            'contact_phone_number': '$telefone_usuario',
+            'message_custom_id': 'DeliciasDaAuziDelivery',
+            'message_type': 'text',
+            'message_body': '$mensagem',
+            'check_status': '1'
+          }";
+        $request = new \GuzzleHttp\Psr7\Request('POST', 'https://app.whatsgw.com.br/api/WhatsGw/Send', $headers, $body);
+        $res = $client->sendAsync($request)->wait();
+    }
+    
     private function enviaMensagemPedidoFoiCancelado(object $pedido) {
 
         $email = service('email');
@@ -291,7 +323,41 @@ class Pedidos extends BaseController {
 
         $email->send();
     }
+    
+    private function enviaMensagemPedidoFoiCanceladoWhats(object $pedido) {
 
+        $entregador = $pedido->entregador;
+        $client = new Client(['verify' => false]);
+        $telefone_usuario = str_replace('(', '', $pedido->telefone);
+        $telefone_usuario = str_replace(')', '', $telefone_usuario);
+        $telefone_usuario = str_replace(' ', '', $telefone_usuario);
+        $telefone_usuario = str_replace('-', '', $telefone_usuario);
+        $codigo_pedido = esc($pedido->codigo);
+        $nome_cliente = esc($pedido->nome);
+        $mensagem = "Que pena, o seu  pedido *$pedido->codigo* foi cancelado! \n" .
+                "Olá *$pedido->nome*, o seu pedido *$pedido->codigo* foi cancelado \n" .
+                "Verificamos aqui que o endereço de entrega é: *$pedido->endereco_entrega* \n " .
+                "Lamentamos que isso tenha ocorrido." .
+                "\n \n" .
+                "Se a *Delicias da Auzi Delivery* puder fazer alguma coisa para melhorar a sua experiência conosco, não exite em nos contactar!";
+
+
+        $headers = [
+            'Content-Type' => 'application/json'
+        ];
+        $body = "{
+            'apikey': 'a581c6d8-bd39-4c8f-92fa-db258986c4a5',
+            'phone_number': '5585991674535',
+            'contact_phone_number': '$telefone_usuario',
+            'message_custom_id': 'DeliciasDaAuziDelivery',
+            'message_type': 'text',
+            'message_body': '$mensagem',
+            'check_status': '1'
+          }";
+        $request = new \GuzzleHttp\Psr7\Request('POST', 'https://app.whatsgw.com.br/api/WhatsGw/Send', $headers, $body);
+        $res = $client->sendAsync($request)->wait();
+    }
+    
     private function insereProdutosDoPedido(object $pedido) {
 
         $pedidoProdutoModel = new \App\Models\PedidoProdutoModel();

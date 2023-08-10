@@ -66,7 +66,9 @@
                                 </div>
                                 <div class="info">
                                     <div class="name"><?php echo esc($produto->nome) ?></div>
-                                    <div class="short"><?php echo word_limiter($produto->ingredientes, 5) ?></div>
+                                    <?php if (!empty($produto->ingredientes) && $produto->ingredientes != null): ?>
+                                        <div class="short"><?php echo word_limiter($produto->ingredientes, 5) ?></div>
+                                    <?php endif; ?>
                                     <span class="filter_item_price">A partir de R$&nbsp;<?php echo esc(number_format($produto->preco, 2)) ?></span>
                                 </div>
                             </div>
