@@ -372,8 +372,8 @@ class Checkout extends BaseController {
             'Content-Type' => 'application/json'
         ];
         $body = "{
-            'apikey': 'a581c6d8-bd39-4c8f-92fa-db258986c4a5',
-            'phone_number': '5585991674535',
+            'apikey': '',
+            'phone_number': '',
             'contact_phone_number': '$telefone_usuario',
             'message_custom_id': 'DeliciasDaAuziDelivery',
             'message_type': 'text',
